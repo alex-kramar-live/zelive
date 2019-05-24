@@ -34,3 +34,17 @@ a.lang-selected {
     border-radius:5px;
     color: grey;
 }
+
+.socialLinks {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.socialLinks div {
+    margin-top:10px;
+}
+
+.socialLinks div a img {
+    margin-right:10px;
+}
