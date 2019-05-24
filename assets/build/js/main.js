@@ -205,7 +205,7 @@ var StaticController = {
     this.loadConfig();
     this.loadTime();
 
-    setInterval(this.update, 100);
+    setInterval(this.update, 250);
     return this;
   }
 }.run();
