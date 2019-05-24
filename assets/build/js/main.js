@@ -56,14 +56,24 @@ var StaticController = {
     var lang = getCookie("ze_site_lang");
     if (lang != "") {
       this.setLang(lang);
-    } 
+    }  else {
+      jQuery("#site_counter_below_label").html(this.content.languages[this.currentLanguage].label);
+      jQuery("#content-title").html(this.content.languages[this.currentLanguage].title);
+      jQuery("#content-text").html(this.content.languages[this.currentLanguage].text);  
+    }
   },
 
   setLang: function(lang) {
     this.currentLanguage = lang;
     setCookie("ze_site_lang", lang, 365);
+
     jQuery("a.lang-selected").removeClass("lang-selected");
     jQuery("#lang-" + lang).addClass("lang-selected");
+
+    jQuery("#site_counter_below_label").html(StaticController.content.languages[StaticController.currentLanguage].label);
+    jQuery("#content-title").html(StaticController.content.languages[StaticController.currentLanguage].title);
+    jQuery("#content-text").html(StaticController.content.languages[StaticController.currentLanguage].text);
+
     this.update();
   },
 
@@ -82,10 +92,6 @@ var StaticController = {
   },
 
   update: function() {
-    jQuery("#content-title").html(StaticController.content.languages[StaticController.currentLanguage].title);
-    jQuery("#content-text").html(StaticController.content.languages[StaticController.currentLanguage].text);
-    jQuery("#site_counter_below_label").html(StaticController.content.languages[StaticController.currentLanguage].label);
-
     if(StaticController.currentTime) {
       
       var startJsTime   = moment(StaticController.currentJSTime);
@@ -205,7 +211,7 @@ var StaticController = {
     this.loadConfig();
     this.loadTime();
 
-    setInterval(this.update, 250);
+    setInterval(this.update, 100);
     return this;
   }
 }.run();
