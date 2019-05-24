@@ -95,11 +95,13 @@ var StaticController = {
     if(StaticController.currentTime) {
       
       var startJsTime   = moment(StaticController.currentJSTime);
+
       var currentJsTime   = moment(new Date());
       var js_distance  = moment.duration(currentJsTime.diff(startJsTime));
       
       var curTime   = moment(StaticController.currentTime);
       var postTime  = moment(StaticController.content.last_post_date);
+
       curTime.add(js_distance);
 
       var distance  = moment.duration(curTime.diff(postTime));
