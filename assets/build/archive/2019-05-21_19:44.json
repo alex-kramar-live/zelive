@@ -1,0 +1,20 @@
+{
+"last_post_date": '2019-05-21 19:44',
+languages: {
+    "uk": {        
+    label: "Президент України Володимир Зеленський та його команда не порушували закони України",
+    title: 'Останнє порушення:',
+    text: '<a href="https://www.president.gov.ua/documents/3042019-27133">Призначення</a> А.Богдана головою адміністрації Президента України всупереч закону <a href="https://zakon.rada.gov.ua/go/1682-18">"Про очищення влади" № 1682-VII</a> (21.05.2019, 19:44)'
+    },
+    "ru": {
+    label: "Президент Украины Владимир Зеленский и его команда не нарушали законы Украины",
+    title: 'Последнее нарушение:',
+    text: '<a href="https://www.president.gov.ua/documents/3042019-27133">Назначение</a> А.Богдана главой администрации Президента Украины вопреки закону <a href="https://zakon.rada.gov.ua/go/1682-18">"О очищении власти" № 1682-VII</a> (21.05.2019, 19:44)'
+    },
+    "en-gb": {
+    label: "The President of Ukraine Volodimir Zelensky and his team did not violate laws of Ukraine",
+    title: 'Last violation:',
+    text: '<a href="https://www.president.gov.ua/documents/3042019-27133">Assignment</a> of A.Bogdan as head of President\'s administration in violation of law <a href="https://zakon.rada.gov.ua/go/1682-18">"About governance clearance" № 1682-VII</a> (21.05.2019, 19:44)'
+    }
+}
+};

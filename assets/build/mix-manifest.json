@@ -1,4 +1,5 @@
 {
+    "/service-worker.js": "/service-worker.js",
     "/js/main.js": "/js/main.js?id=05ad077c374bc8aa0eca",
     "/js/jquery.min.js": "/js/jquery.min.js?id=05ad077c374bc8aa0es2",
     "/js/sw.js": "/js/sw.js?id=05ad077c374bc8aa0es2",
