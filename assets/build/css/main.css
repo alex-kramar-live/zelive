@@ -36,13 +36,14 @@ a.lang-selected {
 }
 
 .socialLinks {
+    font-family:'Roboto', sans-serif;     
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 10px;
 }
 
 .socialLinks div {
-    margin-top:10px;
+    margin-bottom:10px;
 }
 
 .socialLinks div a img {
