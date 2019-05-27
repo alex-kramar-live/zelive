@@ -1,5 +1,5 @@
 header.masthead {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: calc(5rem - 72px);
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), to(rgba(92, 77, 66, 0.8))), url("/assets/images/bg-masthead.jpg");
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/images/bg-masthead.jpg");
@@ -7,7 +7,22 @@ header.masthead {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-  }
+    min-height: 798px;
+}
+
+header.small-header {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.95)), to(rgba(92, 77, 66, 0.8))), url("/assets/images/bg-archive-4.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/images/bg-archive-4.jpg");
+    background-position: center;
+    background-attachment: scroll;
+    min-height: 140px;    
+    border-bottom: 10px solid #f4623a;
+}
+
+header.small-header .container {
+    color: white !important;
+    padding-top:100px;
+}
 
  .site-counter-main {
      font-family: 'Roboto', sans-serif; font-size:240px; font-weight: regular; line-height:240px;
@@ -48,4 +63,45 @@ a.lang-selected {
 
 .socialLinks div a img {
     margin-right:10px;
+}
+
+.page-section {
+    padding: 1rem 0;
+    font-family: "Roboto", sans-serif;
+    font-size:18px;
+}
+
+#services ul li, #services ol li{
+    margin-top:10px;
+}
+
+.violation-text {
+    font-family: "Roboto", sans-serif !important;
+    font-size:20px !important;
+}
+
+.totals_counter {
+    font-size: 5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    header.masthead {
+        padding-top: 8rem;
+    }
+    #services ul li, #services ol li  {
+        margin-left:-20px;
+    }    
+
+    .site-counter-below span {
+        padding-right: 0px !important;
+    }    
+
+    header.small-header {
+        min-height: 200px;     
+    }
+
+    header.small-header .container {
+        padding-top:140px;
+    }    
 }

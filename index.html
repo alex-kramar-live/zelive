@@ -1,142 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" style="height:100%;">
 <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="author" content="Alex Kramar <alex.kramar.live@gmail.com>"/>
+    <meta name="description" content="This is live counter for Prezident law violations"/>
+    <meta name="copyright" content="Ze.Live (<alex.kramar.live@gmail.com>)"/>
+    <meta name="keywords" content=""/>
+    <meta name="robots" content="content='all'"/>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Alex Kramar">
+	<title>President Zelensky law violations Counter</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
-  <link rel="mask-icon" href="/assets/images/favicon//safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png" />
+	<link rel="mask-icon" href="/assets/images/favicon//safari-pinned-tab.svg" color="#5bbad5" />
 
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <meta itemprop="image" content="https://ze.live/assets/images/favicon/android-chrome-200x200.png"/>
-  <link rel="image_src" href="https://ze.live/assets/images/favicon/android-chrome-200x200.png" />
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:title" content="President Zelensky law violation Counter">
-  <meta name="twitter:image:src" content="https://ze.live/assets/images/favicon/android-chrome-200x200.png"/>
-  <meta name="twitter:domain" content="ze.live"/>
-  <meta property="og:title" content="President Zelensky law violation Counter">
-  <meta property="og:url" content="http://ze.live">
-  <meta property="og:image" content="https://ze.live/assets/images/favicon/android-chrome-200x200.png">
-  <meta property="og:image:secure_url" content="https://ze.live/assets/images/favicon/android-chrome-200x200.png" /> 
-  <meta property="og:image:type" content="image/png" /> 
-  <meta property="og:image:width" content="192" /> 
-  <meta property="og:image:height" content="192" />  
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<meta itemprop="image" content="/assets/images/favicon/android-chrome-200x200.png"/>
+	<link rel="image_src" href="/assets/images/favicon/android-chrome-200x200.png" />
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:title" content="President Zelensky law violations Counter">
+	<meta name="twitter:image:src" content="/assets/images/favicon/android-chrome-200x200.png"/>
+	<meta name="twitter:domain" content="ze.live"/>
+	<meta property="og:title" content="President Zelensky law violations Counter">
+	<meta property="og:url" content="http://ze.live">
+	<meta property="og:image" content="/assets/images/favicon/android-chrome-200x200.png">
+	<meta property="og:image:secure_url" content="/assets/images/favicon/android-chrome-200x200.png" /> 
+	<meta property="og:image:type" content="image/png" /> 
+	<meta property="og:image:width" content="192" /> 
+	<meta property="og:image:height" content="192" />  
 
-  <title>President Zelensky law violation Counter</title>
+	<title>President Zelensky law violation Counter</title>
 
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="/assets/build/css/fonts.min.css?id=d41d8cd98f00b204e982">
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="/assets/build/css/fonts.min.css?id=5cec702fcbe0b">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
-  <!-- Theme CSS - Includes Bootstrap -->
-  <link rel="stylesheet" href="/assets/build/css/creative.min.css?id=d41d8cd98f00b204e981">
-  <link rel="stylesheet" href="/assets/build/css/main.css?id=d41d8cd98f00b204e980">
-  <script>
+	<!-- Theme CSS - Includes Bootstrap -->
+	<link rel="stylesheet" href="/assets/build/css/creative.min.css?id=5cec702fcbe0c">
+	<link rel="stylesheet" href="/assets/build/css/main.css?id=5cec702fcbe0d">
+		<script>
     var content = {
-      //last_post_date: '2019-05-24 13:02:00 +0300',
-      last_post_date: '2019-05-27T16:04:00+0300',
-      languages: {
-        "uk": {        
-          label: "Президент України Володимир Зеленський та його команда не порушували закони України",
-          title: 'Останнє порушення:',
-          text: '<a target="_blank" href="https://www.president.gov.ua/documents/3252019-27217">Службова халатність</a>, яка призвела до <a target="_blank" href="https://www.facebook.com/270975163737999/posts/421108885391292/">загибелі та тяжких травм</a> людей під час повіні у Закарпатській області, що підпадає під <a target="_blank" href="https://zakon.rada.gov.ua/laws/show/2341-14">ст. 367 Кримінального кодексу України</a> (27.05.2019 16:04)'
+    "last_post_date": "2019-05-27T16:04:00+0300",
+    "languages": {
+        "uk": {
+            "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3252019-27217\">Службова халатність<\/a>, яка призвела до <a target=\"_blank\" href=\"https:\/\/www.facebook.com\/270975163737999\/posts\/421108885391292\/\">загибелі та тяжких травм<\/a> людей під час повіні у Закарпатській області, що підпадає під <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">ст. 367 Кримінального кодексу України<\/a>"
         },
         "ru": {
-          label: "Президент Украины Владимир Зеленский и его команда не нарушали законы Украины",
-          title: 'Последнее нарушение:',
-          text: '<a target="_blank" href="https://www.president.gov.ua/documents/3252019-27217">Служебная халатность</a>, которая привела к <a target="_blank" href="https://www.facebook.com/270975163737999/posts/421108885391292/">гибели и тяжелым травмам</a> людей во время наводнения в Закарпатской области, что подпадает под <a target="_blank" href="https://zakon.rada.gov.ua/laws/show/2341-14">ст.367 Уголовного кодекса Украины</a> (27.05.2019 16:04)',
+            "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3252019-27217\">Служебная халатность<\/a>, которая привела к <a target=\"_blank\" href=\"https:\/\/www.facebook.com\/270975163737999\/posts\/421108885391292\/\">гибели и тяжелым травмам<\/a> людей во время наводнения в Закарпатской области, что подпадает под <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">ст.367 Уголовного кодекса Украины<\/a>"
         },
         "en-gb": {
-          label: "The President of Ukraine Volodimir Zelensky and his team did not violate laws of Ukraine",
-          title: 'Last violation:',
-          text: '<a target="_blank" href="https://www.president.gov.ua/documents/3252019-27217">Service negligence</a>, which led to the <a target="_blank" href="https://www.facebook.com/270975163737999/posts/421108885391292/">death and serious injuries</a> of people during the flood in the Transcarpathian region falling under <a target="_blank" href="https://zakon.rada.gov.ua/laws/show/2341-14">Art. 367 of the Criminal Code of Ukraine</a> (27.05.2019 16:04)',
+            "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3252019-27217\">Service negligence<\/a>, which led to the <a target=\"_blank\" href=\"https:\/\/www.facebook.com\/270975163737999\/posts\/421108885391292\/\">death and serious injuries<\/a> of people during the flood in the Transcarpathian region falling under <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">Art. 367 of the Criminal Code of Ukraine<\/a>"
         }
-      }
-    };
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.js"></script>
+    }
+}	</script>
+	<script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.js?id=5cec702fcbe1a"></script>
 </head>
+<body class="home" style="height:100%;">
+<nav class="socials">
+	<div class="socialLinks">
+		<div class="link_fb">
+			<a href="https://www.facebook.com/ze.live.official/" target="_blank"><img src="/assets/images/icons/fb.svg" height="32px" width="32px" />ze.live.official</a>
+		</div>
+		<div class="link_tg">
+			<a href="https://t.me/ze_live_official" target="_blank"><img src="/assets/images/icons/tg.svg" height="32px" width="32px" />@ze_live_official</a>
+		</div>
+		<div class="link_twi">
+			<a href="https://twitter.com/Zeliveofficial" target="_blank"><img src="/assets/images/icons/twi.svg" height="32px" width="32px" />@Zeliveofficial</a>
+		</div>
+	</div>
+	<div class="langSelection text-white-75" style="font-family:'Roboto', sans-serif; position: absolute; right:10px; top:10px;">
+		<a id="lang-uk" href="javascript:StaticController.setLang('uk', this);">UA</a> |
+		<a id="lang-ru" href="javascript:StaticController.setLang('ru', this);">RU</a> |
+		<a id="lang-en-gb" class="lang-selected" href="javascript:StaticController.setLang('en-gb', this);">EN</a>
+	</div>
+</nav>
 
-<body id="page-top">
-  <div class="socialLinks">
-    <div class="link_fb">
-      <a href="https://www.facebook.com/ze.live.official/" target="_blank"><img src="/assets/images/icons/fb.svg" height="32px" width="32px" />ze.live.official</a>
-    </div>
-    <div class="link_tg">
-      <a href="https://t.me/ze_live_official" target="_blank"><img src="/assets/images/icons/tg.svg" height="32px" width="32px" />@ze_live_official</a>
-    </div>
-    <div class="link_twi">
-      <a href="https://twitter.com/Zeliveofficial" target="_blank"><img src="/assets/images/icons/twi.svg" height="32px" width="32px" />@Zeliveofficial</a>
-    </div>
-  </div>
-  <div class="langSelection text-white-75" style="font-family:'Roboto', sans-serif; position: absolute; right:10px; top:10px;">
-    <a id="lang-uk" href="javascript:StaticController.setLang('uk', this);">UA</a> |
-    <a id="lang-ru" href="javascript:StaticController.setLang('ru', this);">RU</a> |
-    <a id="lang-en-gb" class="lang-selected" href="javascript:StaticController.setLang('en-gb', this);">EN</a>
-  </div>
-  <!-- Masthead -->
-  <header class="masthead">
+<header class="masthead">
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
           <div class="text-white">
             <div class="site-counter">
               <div class="site-counter-main" id="site-counter-main">0</div>
-              <div class="site-counter-main-label" id="site-counter-main-label">дней</div>
+              <div class="site-counter-main-label" id="site-counter-main-label">днiв</div>
               <div class="site-counter-below">
-                <span id="site_counter_hours" style="display:inline-block; width:230px;">0 часов</span>
-                <span id="site_counter_minutes"  style="display:inline-block; width:230px;">1 минут</span>
-                <span id="site_counter_seconds"  style="display:inline-block; width:230px;">2 секунд</span>
+                <span id="site_counter_hours" style="display:inline-block; width:230px;">0 годие</span>
+                <span id="site_counter_minutes"  style="display:inline-block; width:230px;">1 хвилину</span>
+                <span id="site_counter_seconds"  style="display:inline-block; width:230px;">2 секунди</span>
               </div>
-              <div class="site-counter-below-label" id="site_counter_below_label">
-                Президент Украины Владимир Зеленский и его команда не нарушали законы Украины
+              <div class="site-counter-below-label" id="general_label">
+                Президент України Володимир Зеленський та його команда не порушували закони України
               </div>
             </div>
           </div>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline bg-dark pt-3">
-          <p class="text-white-75 font-weight-light"><span style="color: white !important" class="text-white-100 font-weight-bold mb-5" id="content-title">Последнее нарушение:</span> <span id="content-text"><a href="https://www.president.gov.ua/documents/3042019-27133">Назначение</a> А.Богдана главой администрации Президента Украины вопреки закону <a href="https://zakon.rada.gov.ua/go/1682-18">"О очищении власти" № 1682-VII</a> (21.05.2019, 19:44)</span></p>
+          <p class="violation-text text-white-75 font-weight-light"><span style="color: white !important" class="text-white-100 font-weight-bold mb-5" id="last_violations_title">Останнє порушення:</span> 
+            <span id="content-text">
+            <a target="_blank" href="https://www.president.gov.ua/documents/3252019-27217">Службова халатність</a>, яка призвела до <a target="_blank" href="https://www.facebook.com/270975163737999/posts/421108885391292/">загибелі та тяжких травм</a> людей під час повіні у Закарпатській області, що підпадає під <a target="_blank" href="https://zakon.rada.gov.ua/laws/show/2341-14">ст. 367 Кримінального кодексу України</a>            </span>
+          </p>
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Footer -->
-  <footer class="bg-dark py-3">
+	
+ 
+
+<section class="page-section text-white-75 bg-dark" id="services">
     <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019, Contact: <a href="mailto:alex.kramar.live@gmail.com">alex.kramar.live@gmail.com</a></div>
+        <h2 class="text-left mt-0" id="previous_violations_title">Попереднi порушення:</h2>
+        <ul id="main_mage_archive_list">
+            <li>
+                <a target="_blank" href="https://www.president.gov.ua/documents/3232019-27209">Скасування</a> попередніх указів щодо призначення члена Національної ради з питань телебачення та радіомовлення всупереч закону <a target="_blank" href="https://zakon.rada.gov.ua/laws/show/538/97-%D0%B2%D1%80">"Про Національну раду України з питань телебачення і радіомовлення", 538/97-ВР</a>            </li>
+            <li>
+                <a href="https://www.president.gov.ua/documents/3222019-27209" target="_blank">Скасування</a> указу президента, що містить індивідуальний характер            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=VRcfvRwf6vc" target="_blank">Виступ</a> на конференції iForum російською мовою, чим порушив <a href="https://zakon.rada.gov.ua/laws/show/254%D0%BA/96-%D0%B2%D1%80" target="_blank">ст.10 Конституції України</a> і Рішення Конституційного Суду від 14 грудня 1999 року про її тлумачення            </li>
+        </ul>
+        <div class="archive link"><a href="/archive/" id="goto_archive_link">Перейти до архiву</a></div>
     </div>
-  </footer>
+</section>
 
-  <!-- Bootstrap core JavaScript -->
+<!-- Services Section -->
+<section class="page-section bg-primary text-white" id="services">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-2">
+            <span class="totals_counter" id="total_violations_count">8</span>
+            <h3 class="h4 mb-2" id="total_violations">Всього порушень</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-2">
+            <span class="totals_counter" id="this_week_violations_count">1</span>
+            <h3 class="h4 mb-2" id="this_week_violations">Цього тижня</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-2">
+            <span class="totals_counter" id="months_violations_count">8</span>
+            <h3 class="h4 mb-2" id="months_violations">За місяць</h3>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-2">
+            <span class="totals_counter" id="longest_streak_violations_count">3 дні</span>
+            <h3 class="h4 mb-2" id="longest_streak_violations">Найдовший період</h3>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
 
-  <!-- Custom scripts for this template -->
-  <script src="/assets/build/js/jquery.min.js?id=05ad077c374bc8aa0es2"></script>
-  <script src="/assets/build/js/main.js?id=05ad077c374bc8aa0eca"></script>
+<!-- Footer -->
+<footer class="bg-dark py-3">
+	<div class="container">
+		<div class="small text-center text-muted">Copyright &copy; 2019, Contact: <a href="mailto:alex.kramar.live@gmail.com">alex.kramar.live@gmail.com</a></div>
+	</div>
+</footer>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140781224-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<!-- Custom scripts for this template -->
+<script src="/assets/build/js/jquery.min.js?id=5cec702fcbf31"></script>
 
-    gtag('config', 'UA-140781224-1');
-  </script>
+<script src="/assets/build/js/main.js?id=5cec702fcbf32"></script>
 
-  <script> window._peq = window._peq || []; window._peq.push(["init"]); </script>
-  <script src="https://clientcdn.pushengage.com/core/d977ab2dc7fa7d954282261c791cb49b.js" async></script>
-</body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140781224-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-140781224-1');
+</script>
+
+<script> window._peq = window._peq || []; window._peq.push(["init"]); </script>
+<script src="https://clientcdn.pushengage.com/core/d977ab2dc7fa7d954282261c791cb49b.js" async></script></body>
 </html>

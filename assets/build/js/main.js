@@ -42,7 +42,10 @@ var StaticController = {
   },
 
   loadConfig: function() {
-    this.content = content;
+    if(typeof content != "undefined") {
+      this.content = content;
+    }
+
     if(window.navigator.language.startsWith('en')) {
       this.currentLanguage = "en-gb";
     }
@@ -57,10 +60,14 @@ var StaticController = {
     if (lang != "") {
       this.setLang(lang);
     }  else {
-      jQuery("#site_counter_below_label").html(this.content.languages[this.currentLanguage].label);
-      jQuery("#content-title").html(this.content.languages[this.currentLanguage].title);
-      jQuery("#content-text").html(this.content.languages[this.currentLanguage].text);  
+      if(typeof content != "undefined") {
+        jQuery("#content-text").html(this.content.languages[this.currentLanguage].text);  
+      }
     }
+  },
+
+  getLang: function() {
+    return this.currentLanguage;
   },
 
   setLang: function(lang) {
@@ -70,9 +77,23 @@ var StaticController = {
     jQuery("a.lang-selected").removeClass("lang-selected");
     jQuery("#lang-" + lang).addClass("lang-selected");
 
-    jQuery("#site_counter_below_label").html(StaticController.content.languages[StaticController.currentLanguage].label);
-    jQuery("#content-title").html(StaticController.content.languages[StaticController.currentLanguage].title);
-    jQuery("#content-text").html(StaticController.content.languages[StaticController.currentLanguage].text);
+    if(typeof content != "undefined") {
+      jQuery("#site_counter_below_label").html(StaticController.content.languages[StaticController.currentLanguage].label);
+      jQuery("#content-title").html(StaticController.content.languages[StaticController.currentLanguage].title);
+      jQuery("#content-text").html(StaticController.content.languages[StaticController.currentLanguage].text);
+    }
+    
+    if(window.TranslationsController) {
+      window.TranslationsController.applyTranslations();
+    }
+
+    if(window.ViolationsCounterController) {
+      window.ViolationsCounterController.applyViolationsCounters();
+    }
+
+    if(window.MainPageArchiveController) {
+      window.MainPageArchiveController.applyArchive();
+    }
 
     this.update();
   },
@@ -118,7 +139,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_hours")
               .html("")
-              .css("width", "0px")
+              .css("width", "20px")
           }
           if(distance.minutes() !=0 ) {
             jQuery("#site_counter_minutes")
@@ -127,7 +148,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_minutes")
             .html("")
-            .css("width", "0px")
+            .css("width", "20px")
           }          
           if(distance.seconds() !=0 ) {
             jQuery("#site_counter_seconds")
@@ -136,7 +157,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_seconds")
             .html("")
-            .css("width", "0px")
+            .css("width", "20px")
           }          
           break;
         }
@@ -148,7 +169,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_hours")
             .html("")
-            .css("width", "0px")
+            .css("width", "20px")
           }
           if(distance.minutes() !=0 ) {
             jQuery("#site_counter_minutes")
@@ -157,7 +178,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_minutes")
             .html("")
-            .css("width", "0px")
+            .css("width", "20px")
           }
           if(distance.seconds() !=0 ) {
             jQuery("#site_counter_seconds")
@@ -166,7 +187,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_seconds")
             .html("")
-            .css("width", "0px")
+            .css("width", "20px")
           }
           break;
         }
@@ -180,7 +201,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_hours")
               .html("")
-              .css("width", "0px")
+              .css("width", "20px")
           }
 
           if(distance.minutes() !=0 ) {
@@ -190,7 +211,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_minutes")
               .html("")
-              .css("width", "0px")
+              .css("width", "20px")
           }              
 
           if(distance.seconds() !=0 ) {
@@ -200,7 +221,7 @@ var StaticController = {
           } else {
             jQuery("#site_counter_seconds")
               .html("")
-              .css("width", "0px")
+              .css("width", "20px")
           }
           break;
         }
@@ -209,11 +230,112 @@ var StaticController = {
   },
 
   run: function(){
+    jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
+      window.postMessage(data, "*");
+    });
+
     window.StaticController = this;
     this.loadConfig();
     this.loadTime();
-
+    
     setInterval(this.update, 100);
+    jQuery(document).ready(function(){
+      setTimeout(function() {
+        jQuery(".masthead").css("height", (jQuery(".masthead").outerHeight()) + "px");
+        jQuery(".site-counter-below").css("height", (jQuery(".site-counter-below").outerHeight()) + "px");
+      }, 100);
+    });
+    return this;
+  }
+}.run();
+
+var TranslationsController = {
+  translations: {},
+  loadTranslations: function (data) {
+    this.translations = data.translations;
+  },
+
+  applyTranslations: function (lang) {
+    var key = 0;
+    for (tr in Object.keys(this.translations)) {
+      key = Object.keys(this.translations)[tr];
+      $("#" + key).html(this.translations[key][StaticController.getLang()]).attr("lang_updated", true)
+    }
+  },
+
+  receiveMessage: function(message) {
+    TranslationsController.loadTranslations(message.data);
+    TranslationsController.applyTranslations();
+  },  
+
+  run: function() {
+    window.addEventListener("message", this.receiveMessage, false);
+    return this;
+  }
+}.run();
+
+var MainPageArchiveController = {
+  articles: {},
+  loadArchive: function (data) {
+    this.articles = data.main_page_archive;
+  },
+
+  applyArchive: function (lang) {
+    jQuery("#main_mage_archive_list li").remove();
+    for(tr in Object.keys(this.articles)) {
+      jQuery("#main_mage_archive_list").append("<li>"+this.articles[Object.keys(this.articles)[tr]].languages[StaticController.getLang()].text + " (" + moment(this.articles[Object.keys(this.articles)[tr]].last_post_date).format("DD.MM.YYYY HH:mm")+ ")</li>");
+    }
+  },
+
+  receiveMessage: function(message) {
+    MainPageArchiveController.loadArchive(message.data);
+    MainPageArchiveController.applyArchive();
+  },
+  run: function() {
+    window.addEventListener("message", this.receiveMessage, false);
+    return this;
+  }
+}.run();
+
+var ViolationsCounterController = {
+  loadAViolationsCounters: function (data) {
+    this.counters = data.counters;    
+  },
+
+  applyViolationsCounters: function (lang) {
+    var key = 0;
+    for (tr in Object.keys( this.counters)) {
+      key = Object.keys(this.counters)[tr];
+      if(this.counters[key].is_need_translation == false) {
+        $("#" + key).html(this.counters[key].data).attr("updated", true);
+      } else {
+        if(this.counters[key].translations.is_plural) {
+          var rawDataDigit = this.counters[key].data.replace("{$"+key+"}", "").trim();
+          var lang = StaticController.getLang();
+          var pluralCb = null;
+
+          if(lang == "ru" || lang == "uk") {
+            pluralCb = pluralize_uk;
+          }
+          if(lang == "en" || lang == "en-gb") {
+            pluralCb = pluralize_en;
+          }
+          var applyText = this.counters[key].data.replace("{$"+key+"}", pluralCb(rawDataDigit, this.counters[key].translations[StaticController.getLang()]));
+        } else {
+          var applyText = this.counters[key].data.replace("{$"+key+"}", this.counters[key].translations[StaticController.getLang()]);
+        }
+
+        $("#" + key).html(applyText).attr("updated", true);
+      }
+    }
+  },
+
+  receiveMessage: function(message) {
+    ViolationsCounterController.loadAViolationsCounters(message.data);
+    ViolationsCounterController.applyViolationsCounters();
+  },
+  run: function() {
+    window.addEventListener("message", this.receiveMessage, false);
     return this;
   }
 }.run();
