@@ -42,10 +42,6 @@ var StaticController = {
   },
 
   loadConfig: function() {
-    if(typeof content != "undefined") {
-      this.content = content;
-    }
-
     if(window.navigator.language.startsWith('en')) {
       this.currentLanguage = "en-gb";
     }
@@ -59,11 +55,7 @@ var StaticController = {
     var lang = getCookie("ze_site_lang");
     if (lang != "") {
       this.setLang(lang);
-    }  else {
-      if(typeof content != "undefined") {
-        jQuery("#content-text").html(this.content.languages[this.currentLanguage].text);  
-      }
-    }
+    } 
   },
 
   getLang: function() {
@@ -76,12 +68,6 @@ var StaticController = {
 
     jQuery("a.lang-selected").removeClass("lang-selected");
     jQuery("#lang-" + lang).addClass("lang-selected");
-
-    if(typeof content != "undefined") {
-      jQuery("#site_counter_below_label").html(StaticController.content.languages[StaticController.currentLanguage].label);
-      jQuery("#content-title").html(StaticController.content.languages[StaticController.currentLanguage].title);
-      jQuery("#content-text").html(StaticController.content.languages[StaticController.currentLanguage].text);
-    }
     
     if(window.TranslationsController) {
       window.TranslationsController.applyTranslations();
