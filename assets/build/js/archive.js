@@ -88,7 +88,15 @@ var StaticController = {
         var site_data = data;
         jQuery.getJSON("/assets/build/data/site_archive.json", function(data) {
           site_data.main_page_archive = data;
-          window.postMessage(site_data, "*");
+          if(window.TranslationsController) {
+            window.TranslationsController.receiveMessage({"data":site_data});
+          }      
+          if(window.ViolationsCounterController) {
+            window.ViolationsCounterController.receiveMessage({"data":site_data});
+          }      
+          if(window.MainPageArchiveController) {
+            window.MainPageArchiveController.receiveMessage({"data":site_data});
+          }
         });
       });
     });
