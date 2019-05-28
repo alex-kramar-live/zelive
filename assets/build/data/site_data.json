@@ -1,15 +1,15 @@
 {
     "counters": {
         "total_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 2,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -87,6 +87,20 @@
         }
     },
     "main_page_archive": {
+        "2019-05-27T16:04:00+0300": {
+            "last_post_date": "2019-05-27T16:04:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3252019-27217\">Службова халатність<\/a>, яка призвела до <a target=\"_blank\" href=\"https:\/\/www.facebook.com\/270975163737999\/posts\/421108885391292\/\">загибелі та тяжких травм<\/a> людей під час повіні у Закарпатській області, що підпадає під <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">ст. 367 Кримінального кодексу України<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3252019-27217\">Служебная халатность<\/a>, которая привела к <a target=\"_blank\" href=\"https:\/\/www.facebook.com\/270975163737999\/posts\/421108885391292\/\">гибели и тяжелым травмам<\/a> людей во время наводнения в Закарпатской области, что подпадает под <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">ст.367 Уголовного кодекса Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3252019-27217\">Service negligence<\/a>, which led to the <a target=\"_blank\" href=\"https:\/\/www.facebook.com\/270975163737999\/posts\/421108885391292\/\">death and serious injuries<\/a> of people during the flood in the Transcarpathian region falling under <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">Art. 367 of the Criminal Code of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-05-24T12:00:00+0300": {
             "last_post_date": "2019-05-24T12:00:00+0300",
             "languages": {
@@ -112,20 +126,6 @@
                 },
                 "en-gb": {
                     "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3222019-27209\" target=\"_blank\">Сancellation<\/a> of the president's decree, which contains an individual character"
-                }
-            }
-        },
-        "2019-05-23T14:00:00+0300": {
-            "last_post_date": "2019-05-23T14:00:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=VRcfvRwf6vc\" target=\"_blank\">Виступ<\/a> на конференції iForum російською мовою, чим порушив <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">ст.10 Конституції України<\/a> і Рішення Конституційного Суду від 14 грудня 1999 року про її тлумачення"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=VRcfvRwf6vc\" target=\"_blank\">Выступление<\/a> на конференции iForum на русском языке, чем нарушил <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">ст.10 Конституции Украины<\/a> и Решения Конституционного Суда от 14 декабря 1999 года о ее толкования"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=VRcfvRwf6vc\" target=\"_blank\">Speech<\/a> at the iForum conference in Russian, which violated <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Art.10 of the Constitution of Ukraine<\/a> and the Decision of the Constitutional Court of 14 December 1999 on its interpretation"
                 }
             }
         }
