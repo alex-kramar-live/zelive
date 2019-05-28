@@ -83,11 +83,13 @@ var StaticController = {
   },
 
   run: function(){
-    jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
-      var site_data = data;
-      jQuery.getJSON("/assets/build/data/site_archive.json", function(data) {
-        site_data.main_page_archive = data;
-        window.postMessage(site_data, "*");
+    jQuery(document).ready(function(){
+      jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
+        var site_data = data;
+        jQuery.getJSON("/assets/build/data/site_archive.json", function(data) {
+          site_data.main_page_archive = data;
+          window.postMessage(site_data, "*");
+        });
       });
     });
 
