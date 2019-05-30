@@ -84,24 +84,36 @@ var StaticController = {
 
   run: function(){
     jQuery(document).ready(function(){
-      jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
-        var site_data = data;
-        jQuery.getJSON("/assets/build/data/site_archive.json", function(data) {
-          site_data.main_page_archive = data;
+    //window.postMessage(site_archive, "*");
+    if(window.TranslationsController) {
+      window.TranslationsController.receiveMessage({"data":site_archive});
+    }
 
-          if(window.TranslationsController) {
-            window.TranslationsController.receiveMessage({"data":site_data});
-          }
-      
-          if(window.ViolationsCounterController) {
-            window.ViolationsCounterController.receiveMessage({"data":site_data});
-          }
-      
-          if(window.MainPageArchiveController) {
-            window.MainPageArchiveController.receiveMessage({"data":site_data});
-          }
-        });
+    if(window.ViolationsCounterController) {
+      window.ViolationsCounterController.receiveMessage({"data":site_archive});
+    }
+
+    if(window.MainPageArchiveController) {
+      window.MainPageArchiveController.receiveMessage({"data":site_archive});
+    }
+    /*jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
+      var site_data = data;
+      jQuery.getJSON("/assets/build/data/site_archive.json", function(data) {
+        site_data.main_page_archive = data;
+
+        if(window.TranslationsController) {
+          window.TranslationsController.receiveMessage({"data":site_data});
+        }
+    
+        if(window.ViolationsCounterController) {
+          window.ViolationsCounterController.receiveMessage({"data":site_data});
+        }
+    
+        if(window.MainPageArchiveController) {
+          window.MainPageArchiveController.receiveMessage({"data":site_data});
+        }
       });
+    });*/
     });
 
     window.StaticController = this;

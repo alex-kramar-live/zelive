@@ -231,7 +231,17 @@ var StaticController = {
 
   run: function(){
     //jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
-    window.postMessage(site_data, "*");
+    if(window.TranslationsController) {
+      window.TranslationsController.receiveMessage({"data":site_data});
+    }
+
+    if(window.ViolationsCounterController) {
+      window.ViolationsCounterController.receiveMessage({"data":site_data});
+    }
+
+    if(window.MainPageArchiveController) {
+      window.MainPageArchiveController.receiveMessage({"data":site_data});
+    }
     //});
 
     window.StaticController = this;
