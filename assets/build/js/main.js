@@ -230,9 +230,9 @@ var StaticController = {
   },
 
   run: function(){
-    jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
-      window.postMessage(data, "*");
-    });
+    //jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
+    window.postMessage(site_data, "*");
+    //});
 
     window.StaticController = this;
     this.loadConfig();
