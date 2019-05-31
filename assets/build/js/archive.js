@@ -5,6 +5,10 @@ function setCookie(cname, cvalue, exdays) {
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
+var StaticController = {
+  getLang: function() { return "uk"; }
+};
+
 function getCookie(cname) {
   var name = cname + "=";
   var ca = document.cookie.split(';');
@@ -33,95 +37,6 @@ function pluralize_en(count, words) {
   }
 }
 
-var StaticController = {
-  currentLanguage: "uk",
-  defaultLanguage: 'uk',
-
-  log: function(text) {
-
-  },
-
-  loadConfig: function() {
-    if(window.navigator.language.startsWith('en')) {
-      this.currentLanguage = "en-gb";
-    }
-    if(window.navigator.language.startsWith('uk')) {
-      this.currentLanguage = "uk";
-    }
-    if(window.navigator.language.startsWith('ru')) {
-      this.currentLanguage = "ru";
-    }
-
-    var lang = getCookie("ze_site_lang");
-    if (lang != "") {
-      this.setLang(lang);
-    } 
-  },
-
-  getLang: function() {
-    return this.currentLanguage;
-  },
-
-  setLang: function(lang) {
-    this.currentLanguage = lang;
-    setCookie("ze_site_lang", lang, 365);
-
-    jQuery("a.lang-selected").removeClass("lang-selected");
-    jQuery("#lang-" + lang).addClass("lang-selected");
-    
-    if(window.TranslationsController) {
-      window.TranslationsController.applyTranslations();
-    }
-
-    if(window.ViolationsCounterController) {
-      window.ViolationsCounterController.applyViolationsCounters();
-    }
-
-    if(window.MainPageArchiveController) {
-      window.MainPageArchiveController.applyArchive();
-    }
-  },
-
-  run: function(){
-    jQuery(document).ready(function(){
-    //window.postMessage(site_archive, "*");
-    if(window.TranslationsController) {
-      window.TranslationsController.receiveMessage({"data":site_archive});
-    }
-
-    if(window.ViolationsCounterController) {
-      window.ViolationsCounterController.receiveMessage({"data":site_archive});
-    }
-
-    if(window.MainPageArchiveController) {
-      window.MainPageArchiveController.receiveMessage({"data":site_archive});
-    }
-    /*jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
-      var site_data = data;
-      jQuery.getJSON("/assets/build/data/site_archive.json", function(data) {
-        site_data.main_page_archive = data;
-
-        if(window.TranslationsController) {
-          window.TranslationsController.receiveMessage({"data":site_data});
-        }
-    
-        if(window.ViolationsCounterController) {
-          window.ViolationsCounterController.receiveMessage({"data":site_data});
-        }
-    
-        if(window.MainPageArchiveController) {
-          window.MainPageArchiveController.receiveMessage({"data":site_data});
-        }
-      });
-    });*/
-    });
-
-    window.StaticController = this;
-    this.loadConfig();
-
-    return this;
-  }
-}.run();
 
 var TranslationsController = {
   translations: {},
@@ -167,6 +82,72 @@ var MainPageArchiveController = {
   },
   run: function() {
     window.addEventListener("message", this.receiveMessage, false);
+    return this;
+  }
+}.run();
+
+
+StaticController = {
+  currentLanguage: "uk",
+  defaultLanguage: 'uk',
+
+  loadConfig: function() {
+    if(window.navigator.language.startsWith('en')) {
+      this.currentLanguage = "en-gb";
+    }
+    if(window.navigator.language.startsWith('uk')) {
+      this.currentLanguage = "uk";
+    }
+    if(window.navigator.language.startsWith('ru')) {
+      this.currentLanguage = "ru";
+    }
+
+    var lang = getCookie("ze_site_lang");
+    if (lang != "") {
+      this.setLang(lang);
+    } 
+  },
+
+  getLang: function() {
+    return this.currentLanguage;
+  },
+
+  setLang: function(lang) {
+    this.currentLanguage = lang;
+    setCookie("ze_site_lang", lang, 365);
+
+    jQuery("a.lang-selected").removeClass("lang-selected");
+    jQuery("#lang-" + lang).addClass("lang-selected");
+    
+    if(window.TranslationsController) {
+      window.TranslationsController.applyTranslations();
+    }
+
+    if(window.ViolationsCounterController) {
+      window.ViolationsCounterController.applyViolationsCounters();
+    }
+
+    if(window.MainPageArchiveController) {
+      window.MainPageArchiveController.applyArchive();
+    }
+  },
+
+  run: function(){
+    if(window.TranslationsController) {
+      window.TranslationsController.receiveMessage({"data":site_archive});
+    }
+
+    if(window.ViolationsCounterController) {
+      window.ViolationsCounterController.receiveMessage({"data":site_archive});
+    }
+
+    if(window.MainPageArchiveController) {
+      window.MainPageArchiveController.receiveMessage({"data":site_archive});
+    }    
+
+    window.StaticController = this;
+    this.loadConfig();
+
     return this;
   }
 }.run();
