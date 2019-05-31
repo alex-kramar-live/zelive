@@ -1,15 +1,15 @@
 {
     "counters": {
         "total_violations_count": {
-            "data": 9,
+            "data": 10,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 2,
+            "data": 3,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 9,
+            "data": 10,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -87,6 +87,20 @@
         }
     },
     "main_page_archive": {
+        "2019-05-28T18:00:55+0300": {
+            "last_post_date": "2019-05-28T18:00:55+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3292019-27229\" target=\"_blank\">Повернення<\/a> громадянства України М.Саакашвілі всупереч закону <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2235-14\" target=\"_blank\">\"Про Громадянство України\"<\/a> ст.10 ч.5"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3292019-27229\" target=\"_blank\">Возвращение<\/a> гражданства Украины М.Саакашвили вопреки закону <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2235-14\" target=\"_blank\">\"О Гражданстве Украины\"<\/a> ст.10 с.5"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3292019-27229\" target=\"_blank\">Return<\/a> of M. Saakashvili’s Citizenship Contrary to the Law <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2235-14\" target=\"_blank\">\"On Citizenship of Ukraine\"<\/a> Art.10 p.5"
+                }
+            }
+        },
         "2019-05-27T16:04:00+0300": {
             "last_post_date": "2019-05-27T16:04:00+0300",
             "languages": {
@@ -112,20 +126,6 @@
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3232019-27209\">Cancelling<\/a> previous member assignment to television and radio broadcast National council contraty to law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/538\/97-%D0%B2%D1%80\">\"About television and radio broadcasting National Council\" , 538\/97-ВР<\/a>"
-                }
-            }
-        },
-        "2019-05-24T11:50:00+0300": {
-            "last_post_date": "2019-05-24T11:50:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3222019-27209\" target=\"_blank\">Скасування<\/a> указу президента, що містить індивідуальний характер"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3222019-27209\" target=\"_blank\">Отмена<\/a> указа президента, который содержит индивидуальный характер"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3222019-27209\" target=\"_blank\">Сancellation<\/a> of the president's decree, which contains an individual character"
                 }
             }
         }

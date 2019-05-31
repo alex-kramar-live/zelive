@@ -1,4 +1,18 @@
 {
+    "2019-05-30 16:00:00 +0300": {
+        "last_post_date": "2019-05-30 16:00:00 +0300",
+        "languages": {
+            "uk": {
+                "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Проведення <\/a> першого засідання РНБО всупереч п. 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97\" targer=\"_blank\">Указу Президента № 503\/97 \"Про порядок офіційного оприлюднення нормативно-правових актів та набрання ними чинності\"<\/a>, адже оприлюднення на сайті не є офіційною публікацією"
+            },
+            "ru": {
+                "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Проведение<\/a> первого заседания СНБО вопреки п. 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97 \" target = \"_blank \"> Указа Президента № 503\/97 \"О порядке официального обнародования нормативно-правовых актов и вступления их в силу \"<\/a>, потому как публикации на сайте не является официальной публикацией"
+            },
+            "en-gb": {
+                "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Holding <\/a> the first NSDC meeting contrary to paragraph 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97\" target=\"_blank\"> Presidential Decree No. 503\/97 \"On the Procedure for the Official Publication of Statutory Instruments and Their Entry into Force \"<\/a>, since publishing to the site is not an official publication"
+            }
+        }
+    },
     "2019-05-28T18:00:55+0300": {
         "last_post_date": "2019-05-28T18:00:55+0300",
         "languages": {
