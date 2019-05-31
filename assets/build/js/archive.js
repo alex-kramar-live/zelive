@@ -1,13 +1,13 @@
+var StaticController = {
+  getLang: function() { return "uk"; }
+};
+
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   var expires = "expires="+d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
-
-var StaticController = {
-  getLang: function() { return "uk"; }
-};
 
 function getCookie(cname) {
   var name = cname + "=";
@@ -37,7 +37,6 @@ function pluralize_en(count, words) {
   }
 }
 
-
 var TranslationsController = {
   translations: {},
   loadTranslations: function (data) {
@@ -46,9 +45,10 @@ var TranslationsController = {
 
   applyTranslations: function (lang) {
     var key = 0;
+    var _that = this;
     for (tr in Object.keys(this.translations)) {
-      key = Object.keys(this.translations)[tr];
-      $("#" + key).html(this.translations[key][StaticController.getLang()]).attr("lang_updated", true)
+      key = Object.keys(_that.translations)[tr];
+      $("#" + key).html(_that.translations[key][StaticController.getLang()]).attr("lang_updated", true)
     }
   },
 
@@ -58,7 +58,7 @@ var TranslationsController = {
   },  
 
   run: function() {
-    window.addEventListener("message", this.receiveMessage, false);
+    //window.addEventListener("message", this.receiveMessage, false);
     return this;
   }
 }.run();
@@ -81,7 +81,7 @@ var MainPageArchiveController = {
     MainPageArchiveController.applyArchive();
   },
   run: function() {
-    window.addEventListener("message", this.receiveMessage, false);
+    //window.addEventListener("message", this.receiveMessage, false);
     return this;
   }
 }.run();
