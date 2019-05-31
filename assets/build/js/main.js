@@ -231,17 +231,6 @@ var StaticController = {
 
   run: function(){
     //jQuery.getJSON("/assets/build/data/site_data.json", function(data) {
-    if(window.TranslationsController) {
-      window.TranslationsController.receiveMessage({"data":site_data});
-    }
-
-    if(window.ViolationsCounterController) {
-      window.ViolationsCounterController.receiveMessage({"data":site_data});
-    }
-
-    if(window.MainPageArchiveController) {
-      window.MainPageArchiveController.receiveMessage({"data":site_data});
-    }
     //});
 
     window.StaticController = this;
@@ -250,6 +239,17 @@ var StaticController = {
     
     setInterval(this.update, 100);
     jQuery(document).ready(function(){
+      if(window.TranslationsController) {
+        window.TranslationsController.receiveMessage({"data":site_data});
+      }
+
+      if(window.ViolationsCounterController) {
+        window.ViolationsCounterController.receiveMessage({"data":site_data});
+      }
+
+      if(window.MainPageArchiveController) {
+        window.MainPageArchiveController.receiveMessage({"data":site_data});
+      }    
       setTimeout(function() {
         jQuery(".masthead").css("height", (jQuery(".masthead").outerHeight()) + "px");
         jQuery(".site-counter-below").css("height", (jQuery(".site-counter-below").outerHeight()) + "px");
