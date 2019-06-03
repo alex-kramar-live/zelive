@@ -321,21 +321,27 @@ var ViolationsCounterController = {
       if(this.counters[key].is_need_translation == false) {
         $("#" + key).html(this.counters[key].data).attr("updated", true);
       } else {
-        if(this.counters[key].translations.is_plural) {
-          var rawDataDigit = this.counters[key].data.replace("{$"+key+"}", "").trim();
-          var lang = StaticController.getLang();
-          var pluralCb = null;
+        var rawDataDigit = this.counters[key].counter;
+        var applyText = this.counters[key].data;
+        for(in_tr in Object.keys(this.counters[key].translations)) {
+          in_key = Object.keys(this.counters[key].translations)[in_tr];
 
-          if(lang == "ru" || lang == "uk") {
-            pluralCb = pluralize_uk;
-          }
-          if(lang == "en" || lang == "en-gb") {
-            pluralCb = pluralize_en;
-          }
-          var applyText = this.counters[key].data.replace("{$"+key+"}", pluralCb(rawDataDigit, this.counters[key].translations[StaticController.getLang()]));
-        } else {
-          var applyText = this.counters[key].data.replace("{$"+key+"}", this.counters[key].translations[StaticController.getLang()]);
+          if(this.counters[key].translations[in_key].is_plural) {
+            var lang = StaticController.getLang();
+            var pluralCb = null;
+  
+            if(lang == "ru" || lang == "uk") {
+              pluralCb = pluralize_uk;
+            }
+            if(lang == "en" || lang == "en-gb") {
+              pluralCb = pluralize_en;
+            }
+            var applyText = applyText.replace("{$"+in_key+"}", pluralCb(rawDataDigit, this.counters[key].translations[in_key][StaticController.getLang()]));
+          } else {
+            var applyText = applyText.replace("{$"+in_key+"}", this.counters[key].translations[in_key][StaticController.getLang()]);
+          } 
         }
+        applyText = applyText.replace("#d", rawDataDigit);
 
         $("#" + key).html(applyText).attr("updated", true);
       }

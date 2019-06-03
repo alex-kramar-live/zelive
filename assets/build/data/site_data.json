@@ -13,24 +13,87 @@
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
+            "counter": 3,
             "data": "3 {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
-                "is_plural": true,
-                "uk": [
-                    "день",
-                    "дні",
-                    "днiв"
-                ],
-                "ru": [
-                    "день",
-                    "дня",
-                    "дней"
-                ],
-                "en-gb": [
-                    "day",
-                    "days"
-                ]
+                "longest_streak_violations_count": {
+                    "is_plural": true,
+                    "uk": [
+                        "день",
+                        "дні",
+                        "днiв"
+                    ],
+                    "ru": [
+                        "день",
+                        "дня",
+                        "дней"
+                    ],
+                    "en-gb": [
+                        "day",
+                        "days"
+                    ]
+                }
+            }
+        },
+        "working_progressbar_count": {
+            "is_need_translation": true,
+            "counter": "14",
+            "data": "{$working_title} #d {$working_count}",
+            "translations": {
+                "working_title": {
+                    "is_plural": false,
+                    "uk": "Працює",
+                    "ru": "Работает",
+                    "en-gb": "Working"
+                },
+                "working_count": {
+                    "is_plural": true,
+                    "uk": [
+                        "день",
+                        "дні",
+                        "днiв"
+                    ],
+                    "ru": [
+                        "день",
+                        "дня",
+                        "дней"
+                    ],
+                    "en-gb": [
+                        "day",
+                        "days"
+                    ]
+                }
+            }
+        },
+        "working_till_end_progressbar_count": {
+            "is_need_translation": true,
+            "counter": "1812",
+            "data": "{$working_till_end_title} #d {$working_till_end_count}",
+            "translations": {
+                "working_till_end_title": {
+                    "is_plural": false,
+                    "uk": "До завершення каденції:",
+                    "ru": "До завершения каденции:",
+                    "en-gb": "Till end of cadence:"
+                },
+                "working_till_end_count": {
+                    "is_plural": true,
+                    "uk": [
+                        "день",
+                        "дні",
+                        "днiв"
+                    ],
+                    "ru": [
+                        "день",
+                        "дня",
+                        "дней"
+                    ],
+                    "en-gb": [
+                        "day",
+                        "days"
+                    ]
+                }
             }
         }
     },
@@ -84,6 +147,16 @@
             "uk": "Повернутися на головну сторiнку",
             "ru": "Вернуться на главную страницу",
             "en-gb": "Back to main page"
+        },
+        "wokring_start": {
+            "uk": "1 день",
+            "ru": "1 день",
+            "en-gb": "1 day"
+        },
+        "working_end": {
+            "uk": "1826 днів",
+            "ru": "1826 дней",
+            "en-gb": "1826 days"
         }
     },
     "main_page_archive": {

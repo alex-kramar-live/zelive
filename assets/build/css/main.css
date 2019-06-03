@@ -105,3 +105,51 @@ a.lang-selected {
         padding-top:140px;
     }    
 }
+
+.progress-bar-legend {
+    width: 100%;
+    text-align: center;
+}
+
+.progress-bar-legend div {
+    width: 100px;
+    display: inline-block;
+}
+
+.progress-bar-legend div.progress-bar-legend-start {
+    position: absolute;
+    left: 0px;
+    text-align: left;
+}
+
+.progress-bar-legend div.progress-bar-legend-end {
+    position: absolute;
+    right: 0px;
+    text-align: right;
+}
+
+.progress-bar-legend div.progress-bar-legend-middle {
+    width: 50%;
+}
+
+.progress-bar-top-legend {
+    width: 100%;
+    margin-left:1%;
+    height:36px;
+}
+
+.progress-bar-top-legend-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 10px 0 10px;
+    margin-left:-10px;
+    border-color: #ffdd00 transparent transparent transparent;    
+    display: inline-block;
+    float: left;
+    margin-top:14px;
+}
+
+.progress-bar-top-legend-text {
+    margin-left:20px;
+}
