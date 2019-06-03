@@ -1,5 +1,9 @@
 var site_data = {
     "counters": {
+        "cadence_percentage": {
+            "data": 1,
+            "is_need_translation": false
+        },
         "total_violations_count": {
             "data": 10,
             "is_need_translation": false
