@@ -18,7 +18,7 @@ var site_archive = {
         },
         "longest_streak_violations_count": {
             "counter": 4,
-            "data": "3 {$longest_streak_violations_count}",
+            "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
                 "longest_streak_violations_count": {
