@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 10,
+            "data": 11,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "17",
+            "counter": "18",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1809",
+            "counter": "1808",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-06-07T11:40:00+0300": {
+            "last_post_date": "2019-06-07T11:40:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/petition.president.gov.ua\/petition\/53984\" target=\"_blank\">\"Формальна канцелярска відписка\"<\/a> на електронну петицію щодо звільнення А.Богдана, яка є відповіддю по факту і не розглядає питання по суті, як це вимагає <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/523\/2015#n11\" target=\"_blank\">п.8 Указу президента України 523\/2015 \"Про Порядок розгляду електронної петиції, адресованої Президентові України\"<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/petition.president.gov.ua\/petition\/53984\" target=\"_blank\">\"Формальная канцелярская отписка\"<\/a> на электронную петицию об освобождении А.Богдан, которая является ответом по факту и не рассматривает вопрос по существу, как это требует <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/523\/2015#n11\" target=\"_blank\">п.8 Указа президента Украины 523\/2015 \"О Порядке рассмотрения электронной петиции, адресованной Президенту Украины\"<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/petition.president.gov.ua\/petition\/53984\" target=\"_blank\"> \"Formal clerical answer\" <\/a> on an electronic petition concerning the fire of A. Bogdan, which is a fact-finding answer and does not deal with the merits as required by <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/523\/2015#n11\" target=\"_blank\">paragraph 8 of the Presidential Decree 523\/2015 \"On the Procedure for Considering an Electronic Petition Addressed to the President of Ukraine\"<\/a>"
+                }
+            }
+        },
         "2019-05-31T16:00:00+0300": {
             "last_post_date": "2019-05-31T16:00:00+0300",
             "languages": {

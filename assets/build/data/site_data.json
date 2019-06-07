@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 10,
+            "data": 11,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "17",
+            "counter": "18",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1809",
+            "counter": "1808",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@
         }
     },
     "main_page_archive": {
+        "2019-05-31T16:00:00+0300": {
+            "last_post_date": "2019-05-31T16:00:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Проведення <\/a> першого засідання РНБО всупереч п. 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97\" targer=\"_blank\">Указу Президента № 503\/97 \"Про порядок офіційного оприлюднення нормативно-правових актів та набрання ними чинності\"<\/a>, адже оприлюднення на сайті не є офіційною публікацією"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Проведение<\/a> первого заседания СНБО вопреки п. 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97 \" target = \"_blank \"> Указа Президента № 503\/97 \"О порядке официального обнародования нормативно-правовых актов и вступления их в силу \"<\/a>, потому как публикации на сайте не является официальной публикацией"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Holding <\/a> the first NSDC meeting contrary to paragraph 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97\" target=\"_blank\"> Presidential Decree No. 503\/97 \"On the Procedure for the Official Publication of Statutory Instruments and Their Entry into Force \"<\/a>, since publishing to the site is not an official publication"
+                }
+            }
+        },
         "2019-05-28T18:00:55+0300": {
             "last_post_date": "2019-05-28T18:00:55+0300",
             "languages": {
@@ -189,20 +203,6 @@
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3252019-27217\">Service negligence<\/a>, which led to the <a target=\"_blank\" href=\"https:\/\/www.facebook.com\/270975163737999\/posts\/421108885391292\/\">death and serious injuries<\/a> of people during the flood in the Transcarpathian region falling under <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">Art. 367 of the Criminal Code of Ukraine<\/a>"
-                }
-            }
-        },
-        "2019-05-24T12:00:00+0300": {
-            "last_post_date": "2019-05-24T12:00:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3232019-27209\">Скасування<\/a> попередніх указів щодо призначення члена Національної ради з питань телебачення та радіомовлення всупереч закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/538\/97-%D0%B2%D1%80\">\"Про Національну раду України з питань телебачення і радіомовлення\", 538\/97-ВР<\/a>"
-                },
-                "ru": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3232019-27209\">Отмена<\/a> предыдущих указов о назначении члена Национального совета по вопросам телевидения и радиовещания вопреки закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/538\/97-%D0%B2%D1%80\">\"О Национальном Совете по вопросам телевидения и радиовещания\", 538\/97-ВР<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3232019-27209\">Cancelling<\/a> previous member assignment to television and radio broadcast National council contraty to law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/538\/97-%D0%B2%D1%80\">\"About television and radio broadcasting National Council\" , 538\/97-ВР<\/a>"
                 }
             }
         }
