@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 12,
+            "data": 14,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 2,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 2,
+            "data": 4,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "21",
+            "counter": "22",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1805",
+            "counter": "1804",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,34 @@
         }
     },
     "main_page_archive": {
+        "2019-06-11T15:00:00+0300": {
+            "last_post_date": "2019-06-11T15:00:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Скасування<\/a> попередніх указів щодо призначення члена Вищої ради правосуддя всупереч п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"Про Вищу Раду Правосуддя\", 538\/97-ВР<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Отмена<\/a> предыдущих указов о назначении члена Высшего совета правосудия вопреки п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"О Высшем Совете Правосудия\", 538\/97-ВР<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Cancellation<\/a> of previous President decrees on the appointment of a member of the Supreme Council of Justice contrary to p. 24 of Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\"> \"About the Supreme Council of Justice\", 538\/97-ВР<\/a>"
+                }
+            }
+        },
+        "2019-06-07T19:00:00+0300": {
+            "last_post_date": "2019-06-07T19:00:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.facebook.com\/408149063103887\/posts\/415456945706432\/\" target=\"_blank\">Умисне подання<\/a> недостовірної інформації у деклараціях 2017 та 2018 рр, що має ознаки порушення згідно <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\" target=\"_blank\">статті 366-1 КК України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.facebook.com\/408149063103887\/posts\/415456945706432\/\" target=\"_blank\">Умышленное предоставление<\/a> недостоверной информации в декларациях 2017 и 2018 гг, имеющее признаки нарушения согласно <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\" target=\"_blank\"> статьи 366-1 УК Украины <\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.facebook.com\/408149063103887\/posts\/415456945706432\/\" target=\"_blank\">Intentionally Submission<\/a> of invalid information in 2017 and 2018 Declarations that have signs of violation according to <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\" target=\"_blank\"> article 366-1 of the Criminal Code of Ukraine <\/a>"
+                }
+            }
+        },
         "2019-06-07T11:40:00+0300": {
             "last_post_date": "2019-06-07T11:40:00+0300",
             "languages": {
@@ -175,34 +203,6 @@
                 },
                 "en-gb": {
                     "text": "<a href=\"https:\/\/petition.president.gov.ua\/petition\/53984\" target=\"_blank\"> \"Formal clerical answer\" <\/a> on an electronic petition concerning the fire of A. Bogdan, which is a fact-finding answer and does not deal with the merits as required by <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/523\/2015#n11\" target=\"_blank\">paragraph 8 of the Presidential Decree 523\/2015 \"On the Procedure for Considering an Electronic Petition Addressed to the President of Ukraine\"<\/a>"
-                }
-            }
-        },
-        "2019-05-31T16:00:00+0300": {
-            "last_post_date": "2019-05-31T16:00:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Проведення <\/a> першого засідання РНБО всупереч п. 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97\" targer=\"_blank\">Указу Президента № 503\/97 \"Про порядок офіційного оприлюднення нормативно-правових актів та набрання ними чинності\"<\/a>, адже оприлюднення на сайті не є офіційною публікацією"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Проведение<\/a> первого заседания СНБО вопреки п. 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97 \" target = \"_blank \"> Указа Президента № 503\/97 \"О порядке официального обнародования нормативно-правовых актов и вступления их в силу \"<\/a>, потому как публикации на сайте не является официальной публикацией"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3472019-27305\" target=\"_blank\"> Holding <\/a> the first NSDC meeting contrary to paragraph 4 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/503\/97\" target=\"_blank\"> Presidential Decree No. 503\/97 \"On the Procedure for the Official Publication of Statutory Instruments and Their Entry into Force \"<\/a>, since publishing to the site is not an official publication"
-                }
-            }
-        },
-        "2019-05-28T18:00:55+0300": {
-            "last_post_date": "2019-05-28T18:00:55+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3292019-27229\" target=\"_blank\">Повернення<\/a> громадянства України М.Саакашвілі всупереч закону <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2235-14\" target=\"_blank\">\"Про Громадянство України\"<\/a> ст.10 ч.5"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3292019-27229\" target=\"_blank\">Возвращение<\/a> гражданства Украины М.Саакашвили вопреки закону <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2235-14\" target=\"_blank\">\"О Гражданстве Украины\"<\/a> ст.10 с.5"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/3292019-27229\" target=\"_blank\">Return<\/a> of M. Saakashvili’s Citizenship Contrary to the Law <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2235-14\" target=\"_blank\">\"On Citizenship of Ukraine\"<\/a> Art.10 p.5"
                 }
             }
         }

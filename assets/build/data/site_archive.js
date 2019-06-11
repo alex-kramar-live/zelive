@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 12,
+            "data": 14,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 2,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 2,
+            "data": 4,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "21",
+            "counter": "22",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1805",
+            "counter": "1804",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,34 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-06-11T15:01:00+0300": {
+            "last_post_date": "2019-06-11T15:01:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3592019-27365\">Скасування<\/a> попередніх указів щодо призначення члена Вищої ради правосуддя всупереч п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"Про Вищу Раду Правосуддя\", 538\/97-ВР<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27365\">Отмена<\/a> предыдущих указов о назначении члена Высшего совета правосудия вопреки п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"О Высшем Совете Правосудия\", 538\/97-ВР<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27365\">Cancellation<\/a> of previous President decrees on the appointment of a member of the Supreme Council of Justice contrary to p. 24 of Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\"> \"About the Supreme Council of Justice\", 538\/97-ВР<\/a>"
+                }
+            }
+        },
+        "2019-06-11T15:00:00+0300": {
+            "last_post_date": "2019-06-11T15:00:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Скасування<\/a> попередніх указів щодо призначення члена Вищої ради правосуддя всупереч п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"Про Вищу Раду Правосуддя\", 538\/97-ВР<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Отмена<\/a> предыдущих указов о назначении члена Высшего совета правосудия вопреки п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"О Высшем Совете Правосудия\", 538\/97-ВР<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Cancellation<\/a> of previous President decrees on the appointment of a member of the Supreme Council of Justice contrary to p. 24 of Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\"> \"About the Supreme Council of Justice\", 538\/97-ВР<\/a>"
+                }
+            }
+        },
         "2019-06-07T19:00:00+0300": {
             "last_post_date": "2019-06-07T19:00:00+0300",
             "languages": {
