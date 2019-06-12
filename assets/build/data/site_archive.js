@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 14,
+            "data": 15,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 2,
+            "data": 3,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "22",
+            "counter": "23",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1804",
+            "counter": "1803",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-06-12T13:00:00+0300": {
+            "last_post_date": "2019-06-12T13:00:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Надання<\/a>  недостовірної інформації у виступі в Конституційному суді, порушення <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закону про Конституційний Суд<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Предоставление<\/a> недостоверной информации в выступлении в Конституционном суде, нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закона о Конституционном Суде<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Providing<\/a> false information in a speech before the Constitutional Court meeting, violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">art. 71-3 of the Constitutional Court Law<\/a>"
+                }
+            }
+        },
         "2019-06-11T15:01:00+0300": {
             "last_post_date": "2019-06-11T15:01:00+0300",
             "languages": {
