@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 15,
+            "data": 16,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 3,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@
         }
     },
     "main_page_archive": {
+        "2019-06-12T13:00:00+0300": {
+            "last_post_date": "2019-06-12T13:00:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Надання<\/a> судові недостовірної інформації у виступі в Конституційному Суді, порушення <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закону про Конституційний Суд<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Предоставление<\/a> недостоверной информации суду в выступлении в Конституционном Суде, нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закона о Конституционном Суде<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Providing<\/a> false information in a speech before the Constitutional Court meeting, violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">art. 71-3 of the Constitutional Court Law<\/a>"
+                }
+            }
+        },
         "2019-06-11T15:01:00+0300": {
             "last_post_date": "2019-06-11T15:01:00+0300",
             "languages": {
@@ -189,20 +203,6 @@
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Cancellation<\/a> of previous President decrees on the appointment of a member of the Supreme Council of Justice contrary to p. 24 of Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\"> \"About the Supreme Council of Justice\", 538\/97-ВР<\/a>"
-                }
-            }
-        },
-        "2019-06-07T19:00:00+0300": {
-            "last_post_date": "2019-06-07T19:00:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/www.facebook.com\/408149063103887\/posts\/415456945706432\/\" target=\"_blank\">Умисне подання<\/a> недостовірної інформації у деклараціях 2017 та 2018 рр, що має ознаки порушення згідно <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\" target=\"_blank\">статті 366-1 КК України<\/a>"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/www.facebook.com\/408149063103887\/posts\/415456945706432\/\" target=\"_blank\">Умышленное предоставление<\/a> недостоверной информации в декларациях 2017 и 2018 гг, имеющее признаки нарушения согласно <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\" target=\"_blank\"> статьи 366-1 УК Украины <\/a>"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/www.facebook.com\/408149063103887\/posts\/415456945706432\/\" target=\"_blank\">Intentionally Submission<\/a> of invalid information in 2017 and 2018 Declarations that have signs of violation according to <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\" target=\"_blank\"> article 366-1 of the Criminal Code of Ukraine <\/a>"
                 }
             }
         }

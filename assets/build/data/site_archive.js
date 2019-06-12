@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 15,
+            "data": 16,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 3,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,11 +164,25 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-06-13T00:10:00+0300": {
+            "last_post_date": "2019-06-13T00:10:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/facebook.com\/story.php?story_fbid=418399258745534&id=408149063103887\">Спроба<\/a>  використати повноваження президента з особистих мотивів подавши <a target=\"_blank\" href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66077\">необгрунтоване подання про звільнення генерального прокурора<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/facebook.com\/story.php?story_fbid=418399258745534&id=408149063103887\">Попытка<\/a> использовать полномочия президента  по личным мотивам путем выдачи <a target=\"_blank\" href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66077\">необоснованного представления об увольнении генерального прокурора<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/facebook.com\/story.php?story_fbid=418399258745534&id=408149063103887\">Attempt<\/a> to use president's powers on personal motives by submitting a <a target=\"_blank\" href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66077\">ungrounded submission of general prosecutor dismissal<\/a>"
+                }
+            }
+        },
         "2019-06-12T13:00:00+0300": {
             "last_post_date": "2019-06-12T13:00:00+0300",
             "languages": {
                 "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Надання<\/a> недостовірної інформації судові у виступі в Конституційному Суді, порушення <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закону про Конституційний Суд<\/a>"
+                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Надання<\/a> судові недостовірної інформації у виступі в Конституційному Суді, порушення <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закону про Конституційний Суд<\/a>"
                 },
                 "ru": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Предоставление<\/a> недостоверной информации суду в выступлении в Конституционном Суде, нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закона о Конституционном Суде<\/a>"
