@@ -168,13 +168,13 @@ var site_archive = {
             "last_post_date": "2019-06-13T17:30:00+0300",
             "languages": {
                 "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418818088703651\">Прийняття<\/a> I. Баканова на військову службу в СБУ всупереч Закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"Про військовий обов'язок і військову службу\"<\/a>"
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418820942036699\">Прийняття<\/a> I. Баканова на військову службу в СБУ всупереч Закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"Про військовий обов'язок і військову службу\"<\/a>"
                 },
                 "ru": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418818088703651\">Принятие<\/a> И. Баканова на военную службу в СБУ вопреки Закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"О воинской обязанности и военной службе\"<\/a>"
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418820942036699\">Принятие<\/a> И. Баканова на военную службу в СБУ вопреки Закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"О воинской обязанности и военной службе\"<\/a>"
                 },
                 "en-gb": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418818088703651\">Adoption<\/a> of I. Bakanov for military service to the SBU contrary with the Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"About Military Duty and Military Service\"<\/a>"
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418820942036699\">Adoption<\/a> of I. Bakanov for military service to the SBU contrary with the Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"About Military Duty and Military Service\"<\/a>"
                 }
             }
         },
