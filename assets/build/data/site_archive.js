@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 16,
+            "data": 17,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "23",
+            "counter": "24",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1803",
+            "counter": "1802",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-06-13T17:30:00+0300": {
+            "last_post_date": "2019-06-13T17:30:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418818088703651\">Прийняття<\/a> I. Баканова на військову службу в СБУ всупереч Закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"Про військовий обов'язок і військову службу\"<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418818088703651\">Принятие<\/a> И. Баканова на военную службу в СБУ вопреки Закону <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"О воинской обязанности и военной службе\"<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/418818088703651\">Adoption<\/a> of I. Bakanov for military service to the SBU contrary with the Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2232-12\">\"About Military Duty and Military Service\"<\/a>"
+                }
+            }
+        },
         "2019-06-13T00:10:00+0300": {
             "last_post_date": "2019-06-13T00:10:00+0300",
             "languages": {

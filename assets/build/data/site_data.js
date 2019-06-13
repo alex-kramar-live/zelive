@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 16,
+            "data": 17,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_data = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "23",
+            "counter": "24",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_data = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1803",
+            "counter": "1802",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_data = {
         }
     },
     "main_page_archive": {
+        "2019-06-13T00:10:00+0300": {
+            "last_post_date": "2019-06-13T00:10:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/facebook.com\/story.php?story_fbid=418399258745534&id=408149063103887\">Спроба<\/a>  використати повноваження президента з особистих мотивів подавши <a target=\"_blank\" href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66077\">необгрунтоване подання про звільнення генерального прокурора<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/facebook.com\/story.php?story_fbid=418399258745534&id=408149063103887\">Попытка<\/a> использовать полномочия президента  по личным мотивам путем выдачи <a target=\"_blank\" href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66077\">необоснованного представления об увольнении генерального прокурора<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/facebook.com\/story.php?story_fbid=418399258745534&id=408149063103887\">Attempt<\/a> to use president's powers on personal motives by submitting a <a target=\"_blank\" href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66077\">ungrounded submission of general prosecutor dismissal<\/a>"
+                }
+            }
+        },
         "2019-06-12T13:00:00+0300": {
             "last_post_date": "2019-06-12T13:00:00+0300",
             "languages": {
@@ -189,20 +203,6 @@ var site_data = {
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27365\">Cancellation<\/a> of previous President decrees on the appointment of a member of the Supreme Council of Justice contrary to p. 24 of Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\"> \"About the Supreme Council of Justice\", 538\/97-ВР<\/a>"
-                }
-            }
-        },
-        "2019-06-11T15:00:00+0300": {
-            "last_post_date": "2019-06-11T15:00:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Скасування<\/a> попередніх указів щодо призначення члена Вищої ради правосуддя всупереч п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"Про Вищу Раду Правосуддя\", 538\/97-ВР<\/a>"
-                },
-                "ru": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Отмена<\/a> предыдущих указов о назначении члена Высшего совета правосудия вопреки п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"О Высшем Совете Правосудия\", 538\/97-ВР<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27361\">Cancellation<\/a> of previous President decrees on the appointment of a member of the Supreme Council of Justice contrary to p. 24 of Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\"> \"About the Supreme Council of Justice\", 538\/97-ВР<\/a>"
                 }
             }
         }
