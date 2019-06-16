@@ -9,7 +9,7 @@ var site_archive = {
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 5,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
@@ -164,8 +164,8 @@ var site_archive = {
         }
     },
     "main_page_archive": {
-        "2019-06-15T15:04:00+0300": {
-            "last_post_date": "2019-06-15T15:04:00+0300",
+        "2019-06-16T15:04:00+0300": {
+            "last_post_date": "2019-06-16T15:04:00+0300",
             "languages": {
                 "uk": {
                     "text": "<a target=\"_blank\" href=\"http:\/\/www.youtube.com\/watch?v=tTC02Jgb5Qo&t=1m18s\">Офіційна промова<\/a> використовуючи російську мову всупереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">ст. 10 Конституції України<\/a>"

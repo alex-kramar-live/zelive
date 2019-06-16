@@ -9,7 +9,7 @@ var site_data = {
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 5,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
