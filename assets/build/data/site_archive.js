@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 16,
+            "data": 17,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "26",
+            "counter": "27",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1800",
+            "counter": "1799",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-06-15T15:04:00+0300": {
+            "last_post_date": "2019-06-15T15:04:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"http:\/\/www.youtube.com\/watch?v=tTC02Jgb5Qo&t=1m18s\">Офіційна промова<\/a> використовуючи російську мову всупереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">ст. 10 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"http:\/\/www.youtube.com\/watch?v=tTC02Jgb5Qo&t=1m18s\">Официальная речь<\/a> используя русский язык вопреки <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">ст. 10 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"http:\/\/www.youtube.com\/watch?v=tTC02Jgb5Qo&t=1m18s\">Official speech<\/a> using Russian contrary to <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Article. 10 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-06-13T00:10:00+0300": {
             "last_post_date": "2019-06-13T00:10:00+0300",
             "languages": {
