@@ -5,11 +5,11 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 17,
+            "data": 18,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 0,
             "is_need_translation": false
         },
         "months_violations_count": {
@@ -17,7 +17,7 @@ var site_archive = {
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
-            "counter": 6,
+            "counter": 18071,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "33",
+            "counter": "35",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1793",
+            "counter": "1791",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,7 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "": null,
         "2019-06-16T15:04:00+0300": {
             "last_post_date": "2019-06-16T15:04:00+0300",
             "languages": {

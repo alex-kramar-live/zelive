@@ -5,11 +5,11 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 17,
+            "data": 18,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 0,
             "is_need_translation": false
         },
         "months_violations_count": {
@@ -17,7 +17,7 @@ var site_data = {
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
-            "counter": 6,
+            "counter": 18071,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
@@ -42,7 +42,7 @@ var site_data = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "33",
+            "counter": "35",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_data = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1793",
+            "counter": "1791",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_data = {
         }
     },
     "main_page_archive": {
+        "2019-06-16T15:04:00+0300": {
+            "last_post_date": "2019-06-16T15:04:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"http:\/\/www.youtube.com\/watch?v=tTC02Jgb5Qo&t=1m18s\">Офіційна промова<\/a> використовуючи російську мову всупереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">ст. 10 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"http:\/\/www.youtube.com\/watch?v=tTC02Jgb5Qo&t=1m18s\">Официальная речь<\/a> используя русский язык вопреки <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">ст. 10 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"http:\/\/www.youtube.com\/watch?v=tTC02Jgb5Qo&t=1m18s\">Official speech<\/a> using Russian contrary to <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Article. 10 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-06-13T00:10:00+0300": {
             "last_post_date": "2019-06-13T00:10:00+0300",
             "languages": {
@@ -189,20 +203,6 @@ var site_data = {
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Providing<\/a> false information in a speech before the Constitutional Court meeting, violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">art. 71-3 of the Constitutional Court Law<\/a>"
-                }
-            }
-        },
-        "2019-06-11T15:01:00+0300": {
-            "last_post_date": "2019-06-11T15:01:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3592019-27365\">Скасування<\/a> попередніх указів щодо призначення члена Вищої ради правосуддя всупереч п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"Про Вищу Раду Правосуддя\", 538\/97-ВР<\/a>"
-                },
-                "ru": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27365\">Отмена<\/a> предыдущих указов о назначении члена Высшего совета правосудия вопреки п. 24 закона <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\">\"О Высшем Совете Правосудия\", 538\/97-ВР<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/3582019-27365\">Cancellation<\/a> of previous President decrees on the appointment of a member of the Supreme Council of Justice contrary to p. 24 of Law <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1798-19\"> \"About the Supreme Council of Justice\", 538\/97-ВР<\/a>"
                 }
             }
         }
