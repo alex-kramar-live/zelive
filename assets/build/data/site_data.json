@@ -9,15 +9,15 @@
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 7,
+            "data": 8,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
-            "counter": 18071,
+            "counter": 7,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
