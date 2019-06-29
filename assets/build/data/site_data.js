@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 18,
+            "data": 19,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 2,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_data = {
         }
     },
     "main_page_archive": {
+        "2019-06-24T12:23:00+0300": {
+            "last_post_date": "2019-06-24T12:23:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/762\/98\">Незаконне скасування<\/a> указу N762 від 10 липня 1998 \"Про впорядкування справляння плати за вчинення нотаріальних дій\" яке має відбуватися з урахуванням положень <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Конституції України<\/a> з поданням відповідного закону, який передбачає альтернативне регулювання."
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/762\/98\">Незаконная отмена<\/a> указа N762 от 10 июля 1998 г. \"О порядке взимания платы за совершение нотариальных действий\", которое должно происходить с учетом положений <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Конституции Украины<\/a> с представлением соответствующего закона, который предусматривает альтернативное регулирование."
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/762\/98\">Illegal abolition<\/a> of decree N762 of July 10, 1998 \"On the procedure for collecting fees for notarial acts \", which should rely on the <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Constitution of Ukraine<\/a> with the submission of the relevant law, which provides alternative regulation."
+                }
+            }
+        },
         "2019-06-16T15:04:00+0300": {
             "last_post_date": "2019-06-16T15:04:00+0300",
             "languages": {
@@ -189,20 +203,6 @@ var site_data = {
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/facebook.com\/story.php?story_fbid=418399258745534&id=408149063103887\">Attempt<\/a> to use president's powers on personal motives by submitting a <a target=\"_blank\" href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66077\">ungrounded submission of general prosecutor dismissal<\/a>"
-                }
-            }
-        },
-        "2019-06-12T13:00:00+0300": {
-            "last_post_date": "2019-06-12T13:00:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Надання<\/a> судові недостовірної інформації у виступі в Конституційному Суді, порушення <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закону про Конституційний Суд<\/a>"
-                },
-                "ru": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Предоставление<\/a> недостоверной информации суду в выступлении в Конституционном Суде, нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">ст. 71-3 закона о Конституционном Суде<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/youtu.be\/2jf2IUYHI8k\">Providing<\/a> false information in a speech before the Constitutional Court meeting, violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2136-19\">art. 71-3 of the Constitutional Court Law<\/a>"
                 }
             }
         }
