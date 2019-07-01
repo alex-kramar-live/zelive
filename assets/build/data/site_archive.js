@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 19,
+            "data": 20,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 2,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 9,
+            "data": 1,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "41",
+            "counter": "42",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1785",
+            "counter": "1784",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-01T14:00:00+0300": {
+            "last_post_date": "2019-07-01T14:00:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4682019-27817 \">Присвоєння<\/a> звання Герой України в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1114\/2002\" target=\"_blank\">Статуту про звання Герой України<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4682019-27817 \">Присвоение<\/a> звания Герой Украины в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1114\/2002\" target=\"_blank\">Устава про звание Герой Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4682019-27817 \">Assignment<\/a> of the title of Hero of Ukraine with violation of the rule of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1114\/2002\" target=\"_blank\">Charter of the title of Hero of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-06-29T19:30:00+0300": {
             "last_post_date": "2019-06-29T19:30:00+0300",
             "languages": {
