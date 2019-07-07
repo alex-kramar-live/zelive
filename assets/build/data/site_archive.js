@@ -5,7 +5,7 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 20,
+            "data": 23,
             "is_need_translation": false
         },
         "this_week_violations_count": {
@@ -13,7 +13,7 @@ var site_archive = {
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 1,
+            "data": 4,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "47",
+            "counter": "48",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1779",
+            "counter": "1778",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,48 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-07T14:46:00+0300": {
+            "last_post_date": "2019-07-07T14:46:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Звільнення<\/a> з посади державного уповноваженного Антимонопольного комітету України А.Загребельської в супереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закону про АМКУ<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Увольнение<\/a> с поста государственного уполномоченного Антимонопольного комитета Украины А.Загребельcкой в нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закона про АМКУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Dismissal<\/a> from the post of the State Commissioner of the Antimonopoly Committee of Ukraine А.Zagrbelskaya in violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">Article 18 of the AMCU Law<\/a>"
+                }
+            }
+        },
+        "2019-07-07T14:44:00+0300": {
+            "last_post_date": "2019-07-07T14:44:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4842019-27889\">Звільнення<\/a> з посади державного уповноваженного Антимонопольного комітету України A.Вовка в супереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закону про АМКУ<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4842019-27889\">Увольнение<\/a> с поста государственного уполномоченного Антимонопольного комитета Украины А.Вовк в нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закона про АМКУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4842019-27889\">Dismissal<\/a> from the post of the State Commissioner of the Antimonopoly Committee of Ukraine А.Vovk in violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">Article 18 of the AMCU Law<\/a>"
+                }
+            }
+        },
+        "2019-07-07T14:40:00+0300": {
+            "last_post_date": "2019-07-07T14:40:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4852019-27893\">Звільнення<\/a> з посади державного уповноваженного Антимонопольного комітету України В.Полюховича в супереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закону про АМКУ<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4852019-27893\">Увольнение<\/a> с поста государственного уполномоченного Антимонопольного комитета Украины В.Полюховича в нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закона про АМКУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4852019-27893\">Dismissal<\/a> from the post of the State Commissioner of the Antimonopoly Committee of Ukraine V. Polyhovich in violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">Article 18 of the AMCU Law<\/a>"
+                }
+            }
+        },
         "2019-07-01T14:00:00+0300": {
             "last_post_date": "2019-07-01T14:00:00+0300",
             "languages": {
