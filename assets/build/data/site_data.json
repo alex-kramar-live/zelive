@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 23,
+            "data": 24,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "48",
+            "counter": "49",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1778",
+            "counter": "1777",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@
         }
     },
     "main_page_archive": {
+        "2019-07-07T14:46:00+0300": {
+            "last_post_date": "2019-07-07T14:46:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Звільнення<\/a> з посади державного уповноваженного Антимонопольного комітету України А.Загребельської в супереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закону про АМКУ<\/a>"
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Увольнение<\/a> с поста государственного уполномоченного Антимонопольного комитета Украины А.Загребельcкой в нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закона про АМКУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Dismissal<\/a> from the post of the State Commissioner of the Antimonopoly Committee of Ukraine А.Zagrbelskaya in violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">Article 18 of the AMCU Law<\/a>"
+                }
+            }
+        },
         "2019-07-07T14:44:00+0300": {
             "last_post_date": "2019-07-07T14:44:00+0300",
             "languages": {
@@ -189,20 +203,6 @@
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4852019-27893\">Dismissal<\/a> from the post of the State Commissioner of the Antimonopoly Committee of Ukraine V. Polyhovich in violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">Article 18 of the AMCU Law<\/a>"
-                }
-            }
-        },
-        "2019-07-01T14:00:00+0300": {
-            "last_post_date": "2019-07-01T14:00:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4682019-27817 \">Присвоєння<\/a> звання Герой України в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1114\/2002\" target=\"_blank\">Статуту про звання Герой України<\/a>"
-                },
-                "ru": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4682019-27817 \">Присвоение<\/a> звания Герой Украины в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1114\/2002\" target=\"_blank\">Устава про звание Герой Украины<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4682019-27817 \">Assignment<\/a> of the title of Hero of Ukraine with violation of the rule of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1114\/2002\" target=\"_blank\">Charter of the title of Hero of Ukraine<\/a>"
                 }
             }
         }

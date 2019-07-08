@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 23,
+            "data": 24,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "48",
+            "counter": "49",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1778",
+            "counter": "1777",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-08T13:50:00+0300": {
+            "last_post_date": "2019-07-08T13:50:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=D3R5N5u_-WU\">Проведення<\/a> робочого засідання 5.07.19 у Краматорську російською мовою, чим порушив ст.10 <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Конституції України<\/a> і Рішення Конституційного Суду від 14 грудня 1999 року про її тлумачення."
+                },
+                "ru": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=D3R5N5u_-WU\">Проведение<\/a> рабочего заседания 5.07.19 в Краматорске на русском языке, чем нарушил ст.10 <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Конституции Украины<\/a> и Решения Конституционного Суда от 14 декабря 1999 года о ее толковании"
+                },
+                "en-gb": {
+                    "text": "<a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=D3R5N5u_-WU\">Holding<\/a> a work meeting 5.07.19. at Kramatorsk in Russian, which violated Art.10 of the <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Constitution of Ukraine<\/a> and the Decision of the Constitutional Court of 14 December 1999 on its interpretation"
+                }
+            }
+        },
         "2019-07-07T14:46:00+0300": {
             "last_post_date": "2019-07-07T14:46:00+0300",
             "languages": {
