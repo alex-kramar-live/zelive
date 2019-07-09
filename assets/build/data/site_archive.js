@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 24,
+            "data": 25,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "49",
+            "counter": "50",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1777",
+            "counter": "1776",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-09T12:40:00+0300": {
+            "last_post_date": "2019-07-09T12:40:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/ukranews.com\/amp\/news\/640055-u-zelenskogo-otkazalis-soobshhit-kto-vedet-ot-nego-peregovory-po-gazu-s-rossiej\" target=\"_blank\">Відмова<\/a> надавати відповідь на запит стосовно перемовин команди президента з Газпромом чим порушено <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2939-17\" target=\"_blank\">закон \"Про доступ до публічної інформації\"<\/a>."
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/ukranews.com\/amp\/news\/640055-u-zelenskogo-otkazalis-soobshhit-kto-vedet-ot-nego-peregovory-po-gazu-s-rossiej\" target=\"_blank\">Отказ<\/a> предоставить ответ на запрос относительно переговоров команды президента с Газпромом в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2939-17\" target=\"_blank\">Закона \"Про доступ к публичной информации\"<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/ukranews.com\/amp\/news\/640055-u-zelenskogo-otkazalis-soobshhit-kto-vedet-ot-nego-peregovory-po-gazu-s-rossiej\" target=\"_blank\">Refusal<\/a> to provide a response on a request about the presidential team's negotiations with Gazprom in violation of the <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2939-17\" target=\"_blank\">Law \"On Access to Public Information\"<\/a>"
+                }
+            }
+        },
         "2019-07-08T13:47:00+0300": {
             "last_post_date": "2019-07-08T13:47:00+0300",
             "languages": {
