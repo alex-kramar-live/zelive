@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "52",
+            "counter": "53",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1774",
+            "counter": "1773",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
