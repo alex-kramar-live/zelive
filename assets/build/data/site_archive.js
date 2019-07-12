@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 25,
+            "data": 26,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-12T12:48:00+0300": {
+            "last_post_date": "2019-07-12T12:48:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a hrer=\"https:\/\/www.president.gov.ua\/documents\/4962019-27949\" target=\"_blank\">Звільнення<\/> з посади першого заступника Голови Антимонопольного комітету України - державного уповноваженого в супереч ст.18 <a hrer=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\" target=\"_blank\">Закону про АМКУ<\/a>"
+                },
+                "ru": {
+                    "text": "<a hrer=\"https:\/\/www.president.gov.ua\/documents\/4962019-27949\" target=\"_blank\">Увольнение<\/a> с поста первого заместителя Главы Антимонопольного комитета Украины - государственного уполномоченного в нарушение ст.18 <a hrer=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\" target=\"_blank\">Закона про АМКУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a hrer=\"https:\/\/www.president.gov.ua\/documents\/4962019-27949\" target=\"_blank\">Dismissal<\/a> from the post of the First Deputy of Head of State of the Antimonopoly Committee - Ukraine Commissioner in violation of Article 18 of <a hrer=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\" target=\"_blank\">The AMCU Law<\/a>"
+                }
+            }
+        },
         "2019-07-09T12:40:00+0300": {
             "last_post_date": "2019-07-09T12:40:00+0300",
             "languages": {
