@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 26,
+            "data": 27,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 7,
+            "data": 8,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-12T19:02:00+0300": {
+            "last_post_date": "2019-07-12T19:02:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=ab32kzvvYgA\" target=\"_blank\">Виставивши<\/a> за двері секретаря міськради Борисполя, Зеленський вчинив адміністративне правопорушення - <a href=\"https:\/\/www.slovoidilo.ua\/amp\/2019\/07\/10\/novyna\/polityka\/yurysty-daly-oczinku-incydentu-boryspoli-zelenskyj-zmusyv-vyvesty-chynovnyka-miskrady\" target=\"_blank\">самоуправство<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=ab32kzvvYgA\" target=\"_blank\">Выставив<\/a> за двери секретаря горсовета Борисполя, Зеленский совершил административное правонарушение - <a href=\"https:\/\/www.slovoidilo.ua\/amp\/2019\/07\/10\/novyna\/polityka\/yurysty-daly-oczinku-incydentu-boryspoli-zelenskyj-zmusyv-vyvesty-chynovnyka-miskrady\" target=\"_blank\">самоуправство<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=ab32kzvvYgA\" target=\"_blank\">Drive out<\/a> from the meeting the secretary of the Boryspil City Council, Zelensky committed an administrative offense - <a href=\"https:\/\/www.slovoidilo.ua\/amp\/2019\/07\/10\/novyna\/polityka\/yurysty-daly-oczinku-incydentu-boryspoli-zelenskyj-zmusyv-vyvesty-chynovnyka-miskrady\" target=\"_blank\">arbitrariness<\/a>"
+                }
+            }
+        },
         "2019-07-12T12:48:00+0300": {
             "last_post_date": "2019-07-12T12:48:00+0300",
             "languages": {

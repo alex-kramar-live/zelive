@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 26,
+            "data": 27,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 7,
+            "data": 8,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@
         }
     },
     "main_page_archive": {
+        "2019-07-12T12:48:00+0300": {
+            "last_post_date": "2019-07-12T12:48:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/4962019-27949\" target=\"_blank\">Звільнення<\/a> з посади першого заступника Голови Антимонопольного комітету України - державного уповноваженого в супереч ст.18 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\" target=\"_blank\">Закону про АМКУ<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/4962019-27949\" target=\"_blank\">Увольнение<\/a> с поста первого заместителя Главы Антимонопольного комитета Украины - государственного уполномоченного в нарушение ст.18 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\" target=\"_blank\">Закона про АМКУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/4962019-27949\" target=\"_blank\">Dismissal<\/a> from the post of the First Deputy of Head of State of the Antimonopoly Committee - Ukraine Commissioner in violation of Article 18 of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\" target=\"_blank\">The AMCU Law<\/a>"
+                }
+            }
+        },
         "2019-07-09T12:40:00+0300": {
             "last_post_date": "2019-07-09T12:40:00+0300",
             "languages": {
@@ -189,20 +203,6 @@
                 },
                 "en-gb": {
                     "text": "<a target=\"_blank\" href=\"https:\/\/www.youtube.com\/watch?v=D3R5N5u_-WU\">Holding<\/a> a work meeting 5.07.19. at Kramatorsk in Russian, which violated Art.10 of the <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Constitution of Ukraine<\/a> and the Decision of the Constitutional Court of 14 December 1999 on its interpretation"
-                }
-            }
-        },
-        "2019-07-07T14:46:00+0300": {
-            "last_post_date": "2019-07-07T14:46:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Звільнення<\/a> з посади державного уповноваженного Антимонопольного комітету України А.Загребельської в супереч <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закону про АМКУ<\/a>"
-                },
-                "ru": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Увольнение<\/a> с поста государственного уполномоченного Антимонопольного комитета Украины А.Загребельcкой в нарушение <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">ст.18 Закона про АМКУ<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a target=\"_blank\" href=\"https:\/\/www.president.gov.ua\/documents\/4862019-27897\">Dismissal<\/a> from the post of the State Commissioner of the Antimonopoly Committee of Ukraine А.Zagrbelskaya in violation of <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\">Article 18 of the AMCU Law<\/a>"
                 }
             }
         }
