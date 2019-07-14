@@ -1,7 +1,7 @@
 var site_archive = {
     "counters": {
         "cadence_percentage": {
-            "data": 3,
+            "data": 4,
             "is_need_translation": false
         },
         "total_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "53",
+            "counter": "55",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1773",
+            "counter": "1771",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
