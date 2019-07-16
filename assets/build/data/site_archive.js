@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 27,
+            "data": 28,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 7,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "55",
+            "counter": "57",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1771",
+            "counter": "1769",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-16T13:30:00+0300": {
+            "last_post_date": "2019-07-16T13:30:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Примушення<\/a> до звільнення в.о. Голови ДФС в порушення ст. 19 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Принуждение<\/a> к увольнению и.о. Головы ДФС в нарушение ст 19. <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Coercion<\/a> to dismiss the acting head of the DFS in violation of Article 19. of the <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-07-12T19:02:00+0300": {
             "last_post_date": "2019-07-12T19:02:00+0300",
             "languages": {
