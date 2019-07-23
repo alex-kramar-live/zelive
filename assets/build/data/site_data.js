@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 28,
+            "data": 29,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 9,
+            "data": 10,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_data = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "63",
+            "counter": "64",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_data = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1763",
+            "counter": "1762",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_data = {
         }
     },
     "main_page_archive": {
+        "2019-07-16T13:30:00+0300": {
+            "last_post_date": "2019-07-16T13:30:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Примушення<\/a> до звільнення в.о. Голови ДФС в порушення ст. 19 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Принуждение<\/a> к увольнению и.о. Головы ДФС в нарушение ст 19. <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Coercion<\/a> to dismiss the acting head of the DFS in violation of Article 19. of the <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-07-12T19:02:00+0300": {
             "last_post_date": "2019-07-12T19:02:00+0300",
             "languages": {
@@ -189,20 +203,6 @@ var site_data = {
                 },
                 "en-gb": {
                     "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/4962019-27949\" target=\"_blank\">Dismissal<\/a> from the post of the First Deputy of Head of State of the Antimonopoly Committee - Ukraine Commissioner in violation of Article 18 of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/3659-12\" target=\"_blank\">The AMCU Law<\/a>"
-                }
-            }
-        },
-        "2019-07-09T12:40:00+0300": {
-            "last_post_date": "2019-07-09T12:40:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/ukranews.com\/amp\/news\/640055-u-zelenskogo-otkazalis-soobshhit-kto-vedet-ot-nego-peregovory-po-gazu-s-rossiej\" target=\"_blank\">Відмова<\/a> надавати відповідь на запит стосовно перемовин команди президента з Газпромом чим порушено <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2939-17\" target=\"_blank\">закон \"Про доступ до публічної інформації\"<\/a>."
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/ukranews.com\/amp\/news\/640055-u-zelenskogo-otkazalis-soobshhit-kto-vedet-ot-nego-peregovory-po-gazu-s-rossiej\" target=\"_blank\">Отказ<\/a> предоставить ответ на запрос относительно переговоров команды президента с Газпромом в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2939-17\" target=\"_blank\">Закона \"Про доступ к публичной информации\"<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/ukranews.com\/amp\/news\/640055-u-zelenskogo-otkazalis-soobshhit-kto-vedet-ot-nego-peregovory-po-gazu-s-rossiej\" target=\"_blank\">Refusal<\/a> to provide a response on a request about the presidential team's negotiations with Gazprom in violation of the <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2939-17\" target=\"_blank\">Law \"On Access to Public Information\"<\/a>"
                 }
             }
         }

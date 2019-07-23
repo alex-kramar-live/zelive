@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 28,
+            "data": 29,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 9,
+            "data": 10,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "63",
+            "counter": "64",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1763",
+            "counter": "1762",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-07-23T13:10:00+0300": {
+            "last_post_date": "2019-07-23T13:10:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "Президент Зеленський порушив Закон <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"Про мову\"<\/> виступаючи російською у <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">ході робочої поїздки у Миколаєві<\/a>"
+                },
+                "ru": {
+                    "text": "Президент Зеленский нарушил Закон <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"Про функционирование украинского языка как государственного\"<\/a> выступая с зявлениями по-русски в <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">рабочей поездке в Николаеве<\/a>"
+                },
+                "en-gb": {
+                    "text": "President Zelensky violated the Law <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"On the Functioning of the Ukrainian Language as a State Language\"<\/a> on a <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">working visit to Mykolaev<\/a>"
+                }
+            }
+        },
         "2019-07-16T13:30:00+0300": {
             "last_post_date": "2019-07-16T13:30:00+0300",
             "languages": {
