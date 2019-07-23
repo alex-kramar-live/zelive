@@ -168,7 +168,7 @@ var site_archive = {
             "last_post_date": "2019-07-23T13:10:00+0300",
             "languages": {
                 "uk": {
-                    "text": "Президент Зеленський порушив Закон <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"Про мову\"<\/> виступаючи російською у <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">ході робочої поїздки у Миколаєві<\/a>"
+                    "text": "Президент Зеленський порушив Закон <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"Про мову\"<\/a> виступаючи російською у <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">ході робочої поїздки у Миколаєві<\/a>"
                 },
                 "ru": {
                     "text": "Президент Зеленский нарушил Закон <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"Про функционирование украинского языка как государственного\"<\/a> выступая с зявлениями по-русски в <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">рабочей поездке в Николаеве<\/a>"
