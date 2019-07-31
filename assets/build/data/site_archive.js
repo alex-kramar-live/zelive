@@ -17,7 +17,7 @@ var site_archive = {
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
-            "counter": 7,
+            "counter": 8,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "71",
+            "counter": "72",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1755",
+            "counter": "1754",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
