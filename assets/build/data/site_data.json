@@ -17,7 +17,7 @@
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
-            "counter": 12,
+            "counter": 13,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
