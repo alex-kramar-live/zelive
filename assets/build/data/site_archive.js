@@ -5,19 +5,19 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 29,
+            "data": 30,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
-            "counter": 13,
+            "counter": 17,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "77",
+            "counter": "81",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1749",
+            "counter": "1745",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-08-09T17:40:00+0300": {
+            "last_post_date": "2019-08-09T17:40:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Примушення<\/a> до написання заяв на звільнення без дат, що є порущенням КЗпП та підпадає під статтю <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">358 або 366 Кримінального Кодексу України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Принуждение<\/a> к написанию заявлений об увольнении без даты, что является нарушением КЗоТ и подпадает под <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">статью 358 или 366 Уголовного Кодекса Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Forcing<\/a> to write applications for release without date, which is a violation of the Labor Code and falls under <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">Article 358 or 366 of the Criminal Code of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-07-23T13:10:00+0300": {
             "last_post_date": "2019-07-23T13:10:00+0300",
             "languages": {
