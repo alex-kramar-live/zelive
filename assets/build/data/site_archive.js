@@ -1,23 +1,23 @@
 var site_archive = {
     "counters": {
         "cadence_percentage": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 30,
+            "data": 31,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
-            "is_need_translation": false
-        },
-        "months_violations_count": {
             "data": 1,
             "is_need_translation": false
         },
+        "months_violations_count": {
+            "data": 2,
+            "is_need_translation": false
+        },
         "longest_streak_violations_count": {
-            "counter": 17,
+            "counter": 18,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "88",
+            "counter": "100",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1738",
+            "counter": "1726",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-08-28T13:20:00+0300": {
+            "last_post_date": "2019-08-28T13:20:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Наруга та поплюження<\/a> національного гімну України на офіційному заході з приводу святкування <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Незалежності України<\/a> 24 серпня 2019 року"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Надругательство и осквернение<\/a> ационального Гимна Украины на официальном мероприятии празднования <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Независимости Украины<\/a> 24 августа 2019 года"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">of the national anthem of Ukraine at the official event of the celebration of <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Independence Day of Ukraine<\/a> on August 24, 2019"
+                }
+            }
+        },
         "2019-08-09T17:40:00+0300": {
             "last_post_date": "2019-08-09T17:40:00+0300",
             "languages": {

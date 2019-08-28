@@ -1,23 +1,23 @@
 {
     "counters": {
         "cadence_percentage": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 30,
+            "data": 31,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
-            "is_need_translation": false
-        },
-        "months_violations_count": {
             "data": 1,
             "is_need_translation": false
         },
+        "months_violations_count": {
+            "data": 2,
+            "is_need_translation": false
+        },
         "longest_streak_violations_count": {
-            "counter": 17,
+            "counter": 18,
             "data": "#d {$longest_streak_violations_count}",
             "is_need_translation": true,
             "translations": {
@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "88",
+            "counter": "100",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1738",
+            "counter": "1726",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@
         }
     },
     "main_page_archive": {
+        "2019-08-09T17:40:00+0300": {
+            "last_post_date": "2019-08-09T17:40:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Примушення<\/a> до написання заяв на звільнення без дат, що є порущенням КЗпП та підпадає під статтю <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">358 або 366 Кримінального Кодексу України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Принуждение<\/a> к написанию заявлений об увольнении без даты, что является нарушением КЗоТ и подпадает под <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">статью 358 или 366 Уголовного Кодекса Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Forcing<\/a> to write applications for release without date, which is a violation of the Labor Code and falls under <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">Article 358 or 366 of the Criminal Code of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-07-23T13:10:00+0300": {
             "last_post_date": "2019-07-23T13:10:00+0300",
             "languages": {
@@ -189,20 +203,6 @@
                 },
                 "en-gb": {
                     "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Coercion<\/a> to dismiss the acting head of the DFS in violation of Article 19. of the <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Constitution of Ukraine<\/a>"
-                }
-            }
-        },
-        "2019-07-12T19:02:00+0300": {
-            "last_post_date": "2019-07-12T19:02:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=ab32kzvvYgA\" target=\"_blank\">Виставивши<\/a> за двері секретаря міськради Борисполя, Зеленський вчинив адміністративне правопорушення - <a href=\"https:\/\/www.slovoidilo.ua\/amp\/2019\/07\/10\/novyna\/polityka\/yurysty-daly-oczinku-incydentu-boryspoli-zelenskyj-zmusyv-vyvesty-chynovnyka-miskrady\" target=\"_blank\">самоуправство<\/a>"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=ab32kzvvYgA\" target=\"_blank\">Выставив<\/a> за двери секретаря горсовета Борисполя, Зеленский совершил административное правонарушение - <a href=\"https:\/\/www.slovoidilo.ua\/amp\/2019\/07\/10\/novyna\/polityka\/yurysty-daly-oczinku-incydentu-boryspoli-zelenskyj-zmusyv-vyvesty-chynovnyka-miskrady\" target=\"_blank\">самоуправство<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/www.youtube.com\/watch?v=ab32kzvvYgA\" target=\"_blank\">Drive out<\/a> from the meeting the secretary of the Boryspil City Council, Zelensky committed an administrative offense - <a href=\"https:\/\/www.slovoidilo.ua\/amp\/2019\/07\/10\/novyna\/polityka\/yurysty-daly-oczinku-incydentu-boryspoli-zelenskyj-zmusyv-vyvesty-chynovnyka-miskrady\" target=\"_blank\">arbitrariness<\/a>"
                 }
             }
         }
