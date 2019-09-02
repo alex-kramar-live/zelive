@@ -9,11 +9,11 @@ var site_data = {
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 0,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 2,
+            "data": 0,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_data = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "102",
+            "counter": "105",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_data = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1724",
+            "counter": "1721",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
