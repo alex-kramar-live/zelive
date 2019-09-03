@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 33,
+            "data": 34,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 2,
+            "data": 3,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 2,
+            "data": 3,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -166,6 +166,20 @@ var site_data = {
     "main_page_archive": {
         "2019-09-03T12:11:00+0300": {
             "last_post_date": "2019-09-03T12:11:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "Комітети ВР <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">створені з порушенням<\/a> ч 4 статті 81 регламенту ВРУ та <a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">розподілені непропорційно<\/a>"
+                },
+                "ru": {
+                    "text": "Комитеты ВР <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">созданы с нарушением<\/a> ч 4 статьи 81 регламента ВРУ, квоты <a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">распределены не пропорционально<\/a>"
+                },
+                "en-gb": {
+                    "text": "The committees <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">were created in violation<\/a> of Part 4 of Article 81 of the Rules of the Verkhovna Rada, Quotas are <a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">not distributed proportionally<\/a>"
+                }
+            }
+        },
+        "2019-09-03T12:10:00+0300": {
+            "last_post_date": "2019-09-03T12:10:00+0300",
             "languages": {
                 "uk": {
                     "text": "Перед голосуванням за Голову ВРУ народним депутатам <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">не були надані відомості<\/a> щодо кандидата(ів) на пост голови ВР, чим порушено <\/a><a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\"> ч.3 Статті 74 регламенту ВРУ<\/a>"
