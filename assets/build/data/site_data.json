@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 31,
+            "data": 32,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "105",
+            "counter": "106",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1721",
+            "counter": "1720",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,45 +164,31 @@
         }
     },
     "main_page_archive": {
-        "2019-08-09T17:40:00+0300": {
-            "last_post_date": "2019-08-09T17:40:00+0300",
+        "2019-09-02T12:11:00+0300": {
+            "last_post_date": "2019-09-02T12:11:00+0300",
             "languages": {
                 "uk": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Примушення<\/a> до написання заяв на звільнення без дат, що є порущенням КЗпП та підпадає під статтю <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">358 або 366 Кримінального Кодексу України<\/a>"
+                    "text": "Перед голосуванням за Голову ВРУ народним депутатам <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">не були надані відомості<\/a> щодо кандидата(ів) на пост голови ВР, чим порушено <\/a><a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\"> ч.3 Статті 74 регламенту ВРУ<\/a>"
                 },
                 "ru": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Принуждение<\/a> к написанию заявлений об увольнении без даты, что является нарушением КЗоТ и подпадает под <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">статью 358 или 366 Уголовного Кодекса Украины<\/a>"
+                    "text": "Перед голосованием за Председателя ВРУ народным депутатам <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">не были предоставлены сведения<\/a> относительно кандидата (ов) на пост председателя ВР чем нарушена <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">ч3. Статьи 74 регламента ВРУ<\/a>"
                 },
                 "en-gb": {
-                    "text": "<a href=\"https:\/\/www.president.gov.ua\/news\/prezident-pidtverdiv-sho-kerivnik-jogo-ofisu-napisav-zayavu-56689\" target=\"_blank\">Forcing<\/a> to write applications for release without date, which is a violation of the Labor Code and falls under <a href=\"https:\/\/www.facebook.com\/story.php?story_fbid=1297398400421295&id=100004534422805\" target=\"_blank\">Article 358 or 366 of the Criminal Code of Ukraine<\/a>"
+                    "text": "Before voting for the Chairman of the Verkhovna Rada, the deputies <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">were not provided with information<\/a> regarding the candidate (s) for the post of chairman of the Verkhovna Rada, which violates <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">part 3. Articles 74 of the Rules of the Verkhovna Rada<\/a>"
                 }
             }
         },
-        "2019-07-23T13:10:00+0300": {
-            "last_post_date": "2019-07-23T13:10:00+0300",
+        "2019-08-28T13:20:00+0300": {
+            "last_post_date": "2019-08-28T13:20:00+0300",
             "languages": {
                 "uk": {
-                    "text": "Президент Зеленський порушив Закон <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"Про мову\"<\/a> виступаючи російською у <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">ході робочої поїздки у Миколаєві<\/a>"
+                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Наруга та поплюження<\/a> національного гімну України на офіційному заході з приводу святкування <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Незалежності України<\/a> 24 серпня 2019 року"
                 },
                 "ru": {
-                    "text": "Президент Зеленский нарушил Закон <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"Про функционирование украинского языка как государственного\"<\/a> выступая с зявлениями по-русски в <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">рабочей поездке в Николаеве<\/a>"
+                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Надругательство и осквернение<\/a> ационального Гимна Украины на официальном мероприятии празднования <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Независимости Украины<\/a> 24 августа 2019 года"
                 },
                 "en-gb": {
-                    "text": "President Zelensky violated the Law <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2704-19\" target=\"_blank\">\"On the Functioning of the Ukrainian Language as a State Language\"<\/a> on a <a href=\"https:\/\/www.facebook.com\/296958677115673\/posts\/1672236719587855\/\" target=\"_blank\">working visit to Mykolaev<\/a>"
-                }
-            }
-        },
-        "2019-07-16T13:30:00+0300": {
-            "last_post_date": "2019-07-16T13:30:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Примушення<\/a> до звільнення в.о. Голови ДФС в порушення ст. 19 <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Конституції України<\/a>"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Принуждение<\/a> к увольнению и.о. Головы ДФС в нарушение ст 19. <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Конституции Украины<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/www.segodnya.ua\/politics\/zelenskiy-prizval-i-o-glavy-gfs-vlasova-uyti-v-otstavku-podrobnosti-1300660.html\" target=\"_blank\">Coercion<\/a> to dismiss the acting head of the DFS in violation of Article 19. of the <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Constitution of Ukraine<\/a>"
+                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">of the national anthem of Ukraine at the official event of the celebration of <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Independence Day of Ukraine<\/a> on August 24, 2019"
                 }
             }
         }

@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 31,
+            "data": 32,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "105",
+            "counter": "106",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1721",
+            "counter": "1720",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-02T12:11:00+0300": {
+            "last_post_date": "2019-09-02T12:11:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "Перед голосуванням за Голову ВРУ народним депутатам <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">не були надані відомості<\/a> щодо кандидата(ів) на пост голови ВР, чим порушено <\/a><a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\"> ч.3 Статті 74 регламенту ВРУ<\/a>"
+                },
+                "ru": {
+                    "text": "Перед голосованием за Председателя ВРУ народным депутатам <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">не были предоставлены сведения<\/a> относительно кандидата (ов) на пост председателя ВР чем нарушена <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">ч3. Статьи 74 регламента ВРУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "Before voting for the Chairman of the Verkhovna Rada, the deputies <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">were not provided with information<\/a> regarding the candidate (s) for the post of chairman of the Verkhovna Rada, which violates <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">part 3. Articles 74 of the Rules of the Verkhovna Rada<\/a>"
+                }
+            }
+        },
         "2019-08-28T13:20:00+0300": {
             "last_post_date": "2019-08-28T13:20:00+0300",
             "languages": {
