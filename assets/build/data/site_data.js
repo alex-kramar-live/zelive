@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 32,
+            "data": 33,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 2,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 1,
+            "data": 2,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {

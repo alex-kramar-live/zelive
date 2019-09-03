@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 32,
+            "data": 33,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 2,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 1,
+            "data": 2,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-03T12:14:00+0300": {
+            "last_post_date": "2019-09-03T12:14:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Проект постанови №1095<\/a> яким визначається попередньо схваленим Зконопроект 7203 щодо <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">зміни статті 80 Конституції України<\/a> про зняття депутатської недоторканості прийнятий в порушення Регламенту ВРУ."
+                },
+                "ru": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Проект постановления №1095<\/a> которым определяется предварительно одобренным Законопроект 7203 по <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">изменению статьи 80 Конституции Украины<\/a> о снятии депутатской неприкосновенности принят в нарушение Регламента ВРУ."
+                },
+                "en-gb": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Draft Resolution No. 1095<\/a> which is determined by the previously approved Bill 7203 to <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">amend article 80 of the Constitution of Ukraine<\/a> on the removal of parliamentary immunity adopted in violation of the Rules of the Verkhovna Rada."
+                }
+            }
+        },
         "2019-09-03T12:11:00+0300": {
             "last_post_date": "2019-09-03T12:11:00+0300",
             "languages": {
