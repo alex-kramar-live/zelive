@@ -164,8 +164,8 @@ var site_data = {
         }
     },
     "main_page_archive": {
-        "2019-09-02T12:11:00+0300": {
-            "last_post_date": "2019-09-02T12:11:00+0300",
+        "2019-09-03T12:11:00+0300": {
+            "last_post_date": "2019-09-03T12:11:00+0300",
             "languages": {
                 "uk": {
                     "text": "Перед голосуванням за Голову ВРУ народним депутатам <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">не були надані відомості<\/a> щодо кандидата(ів) на пост голови ВР, чим порушено <\/a><a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\"> ч.3 Статті 74 регламенту ВРУ<\/a>"
