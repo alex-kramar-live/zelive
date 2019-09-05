@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 38,
+            "data": 39,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 7,
+            "data": 8,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 7,
+            "data": 8,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-05T12:06:00+0300": {
+            "last_post_date": "2019-09-05T12:06:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=53630\" target=\"_blank\">Накладання вето<\/a> на Закон №1793 щодо покарання за порушення при закупівлі оборонної продукції в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статті 94 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=53630\" target=\"_blank\">Наложение вето<\/a> на Закон №1793 о наказании за нарушения при закупке оборонной продукции в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статьи 94 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=53630\" target=\"_blank\">The veto<\/a> of Law No. 1793 on Punishment for Infringement in the Purchase of Defense Products in Violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Article 94 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-09-05T11:55:00+0300": {
             "last_post_date": "2019-09-05T11:55:00+0300",
             "languages": {
