@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 36,
+            "data": 37,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@
         }
     },
     "main_page_archive": {
+        "2019-09-05T11:28:00+0300": {
+            "last_post_date": "2019-09-05T11:28:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "Президент Зеленський та його дружина <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">заборонили<\/a> зйомку журналістам коли привели дитину до школи 2 вересня 2019 року, що підпадає під <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">статтю 171 ККУ - \"Перешкоджання законній професійній діяльності журналістів\"<\/a>"
+                },
+                "ru": {
+                    "text": "Президент Зеленский и его жена <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">запретили<\/a> сьемку журналистам когда привели ребенка в школу 2 сентября 2019, подпадающего под <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">статью 171 УК - \"Воспрепятствование законной профессиональной деятельности журналистов\"<\/a>"
+                },
+                "en-gb": {
+                    "text": "President Zelensky and his wife <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">banned<\/a> filming for journalists when they brought the child to school on September 2, 2019, which falls under <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">article 171 of the Criminal Code - \"Obstruction of the legitimate professional activities of journalists\"<\/a>"
+                }
+            }
+        },
         "2019-09-05T11:18:00+0300": {
             "last_post_date": "2019-09-05T11:18:00+0300",
             "languages": {
@@ -189,20 +203,6 @@
                 },
                 "en-gb": {
                     "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Draft Resolution No. 1095<\/a> which is determined by the previously approved Bill 7203 to <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">amend article 80 of the Constitution of Ukraine<\/a> on the removal of parliamentary immunity adopted in violation of the Rules of the Verkhovna Rada."
-                }
-            }
-        },
-        "2019-09-03T12:11:00+0300": {
-            "last_post_date": "2019-09-03T12:11:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "Комітети ВР <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">створені з порушенням<\/a> ч 4 статті 81 регламенту ВРУ та <a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">розподілені непропорційно<\/a>"
-                },
-                "ru": {
-                    "text": "Комитеты ВР <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">созданы с нарушением<\/a> ч 4 статьи 81 регламента ВРУ, квоты <a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">распределены не пропорционально<\/a>"
-                },
-                "en-gb": {
-                    "text": "The committees <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">were created in violation<\/a> of Part 4 of Article 81 of the Rules of the Verkhovna Rada, Quotas are <a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">not distributed proportionally<\/a>"
                 }
             }
         }

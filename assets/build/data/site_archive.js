@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 36,
+            "data": 37,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 5,
+            "data": 6,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-05T11:36:00+0300": {
+            "last_post_date": "2019-09-05T11:36:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">Накладання вето на Закон 10184<\/a> про державну підтримку Пласту в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статті 94 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">Наложение вето на Закон 10184<\/a> о государственной поддержке Пласта в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статьи 94 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">The veto of Law 10184<\/a> on state support for Plast in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Article 94 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-09-05T11:28:00+0300": {
             "last_post_date": "2019-09-05T11:28:00+0300",
             "languages": {
