@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 35,
+            "data": 36,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 4,
+            "data": 5,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-05T11:28:00+0300": {
+            "last_post_date": "2019-09-05T11:28:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "Президент Зеленський та його дружина <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">заборонили<\/a> зйомку журналістам коли привели дитину до школи 2 вересня 2019 року, що підпадає під <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">статтю 171 ККУ - \"Перешкоджання законній професійній діяльності журналістів\"<\/a>"
+                },
+                "ru": {
+                    "text": "Президент Зеленский и его жена <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">запретили<\/a> сьемку журналистам когда привели ребенка в школу 2 сентября 2019, подпадающего под <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">статью 171 УК - \"Воспрепятствование законной профессиональной деятельности журналистов\"<\/a>"
+                },
+                "en-gb": {
+                    "text": "President Zelensky and his wife <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">banned<\/a> filming for journalists when they brought the child to school on September 2, 2019, which falls under <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">article 171 of the Criminal Code - \"Obstruction of the legitimate professional activities of journalists\"<\/a>"
+                }
+            }
+        },
         "2019-09-05T11:18:00+0300": {
             "last_post_date": "2019-09-05T11:18:00+0300",
             "languages": {
