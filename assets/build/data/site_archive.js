@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 37,
+            "data": 38,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-05T11:55:00+0300": {
+            "last_post_date": "2019-09-05T11:55:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=61790\" target=\"_blank\">Накладання вето<\/a> на Закон № 6449 про покарання педофілів в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">статті 94 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=61790\" target=\"_blank\">Наложение вето<\/a> на Закон № 6449 о наказании педофилов в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">статьи 94 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=61790\" target=\"_blank\">The veto<\/a> of Law No. 6449 on the punishment of pedophiles in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Article 94 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-09-05T11:36:00+0300": {
             "last_post_date": "2019-09-05T11:36:00+0300",
             "languages": {
@@ -255,7 +269,7 @@ var site_archive = {
                     "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Наруга та поплюження<\/a> національного гімну України на офіційному заході з приводу святкування <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Незалежності України<\/a> 24 серпня 2019 року"
                 },
                 "ru": {
-                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Надругательство и осквернение<\/a> ационального Гимна Украины на официальном мероприятии празднования <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Независимости Украины<\/a> 24 августа 2019 года"
+                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Надругательство и осквернение<\/a> Национального Гимна Украины на официальном мероприятии празднования <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Независимости Украины<\/a> 24 августа 2019 года"
                 },
                 "en-gb": {
                     "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">of the national anthem of Ukraine at the official event of the celebration of <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Independence Day of Ukraine<\/a> on August 24, 2019"

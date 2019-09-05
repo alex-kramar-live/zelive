@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 37,
+            "data": 38,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_data = {
         }
     },
     "main_page_archive": {
+        "2019-09-05T11:36:00+0300": {
+            "last_post_date": "2019-09-05T11:36:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">Накладання вето на Закон 10184<\/a> про державну підтримку Пласту в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статті 94 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">Наложение вето на Закон 10184<\/a> о государственной поддержке Пласта в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статьи 94 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">The veto of Law 10184<\/a> on state support for Plast in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Article 94 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-09-05T11:28:00+0300": {
             "last_post_date": "2019-09-05T11:28:00+0300",
             "languages": {
@@ -189,20 +203,6 @@ var site_data = {
                 },
                 "en-gb": {
                     "text": "<a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">Voting<\/a> issues without including issues on the agenda and voting for a procedure for considering issues without defining this procedure, violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">Part 4. Art. 20, Art. 23 regulations of the Verkhovna Rada<\/a>"
-                }
-            }
-        },
-        "2019-09-03T12:14:00+0300": {
-            "last_post_date": "2019-09-03T12:14:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Проект постанови №1095<\/a> яким визначається попередньо схваленим Зконопроект 7203 щодо <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">зміни статті 80 Конституції України<\/a> про зняття депутатської недоторканості прийнятий в порушення Регламенту ВРУ."
-                },
-                "ru": {
-                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Проект постановления №1095<\/a> которым определяется предварительно одобренным Законопроект 7203 по <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">изменению статьи 80 Конституции Украины<\/a> о снятии депутатской неприкосновенности принят в нарушение Регламента ВРУ."
-                },
-                "en-gb": {
-                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Draft Resolution No. 1095<\/a> which is determined by the previously approved Bill 7203 to <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">amend article 80 of the Constitution of Ukraine<\/a> on the removal of parliamentary immunity adopted in violation of the Rules of the Verkhovna Rada."
                 }
             }
         }
