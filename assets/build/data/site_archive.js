@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 34,
+            "data": 35,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 3,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 3,
+            "data": 4,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "106",
+            "counter": "108",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1720",
+            "counter": "1718",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-05T11:18:00+0300": {
+            "last_post_date": "2019-09-05T11:18:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">Голосування<\/a> питань без включення питань до порядку денного та голосування за процедуру розгляду питань без визначення цієї процедури, порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">ч4. ст. 20, ст. 23 регламенту ВРУ<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">Голосование<\/a> вопросов без включения вопросов в повестку дня и голосования за процедуру рассмотрения вопросов без определения этой процедуры, нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">ч.4. ст. 20, ст. 23 регламента ВРУ<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.facebook.com\/ze.live.official\/posts\/460751821176944\" target=\"_blank\">Voting<\/a> issues without including issues on the agenda and voting for a procedure for considering issues without defining this procedure, violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">Part 4. Art. 20, Art. 23 regulations of the Verkhovna Rada<\/a>"
+                }
+            }
+        },
         "2019-09-03T12:14:00+0300": {
             "last_post_date": "2019-09-03T12:14:00+0300",
             "languages": {

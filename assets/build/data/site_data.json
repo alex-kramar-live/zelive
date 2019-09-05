@@ -5,15 +5,15 @@
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 34,
+            "data": 35,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 3,
+            "data": 4,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 3,
+            "data": 4,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "106",
+            "counter": "108",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1720",
+            "counter": "1718",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@
         }
     },
     "main_page_archive": {
+        "2019-09-03T12:14:00+0300": {
+            "last_post_date": "2019-09-03T12:14:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Проект постанови №1095<\/a> яким визначається попередньо схваленим Зконопроект 7203 щодо <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">зміни статті 80 Конституції України<\/a> про зняття депутатської недоторканості прийнятий в порушення Регламенту ВРУ."
+                },
+                "ru": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Проект постановления №1095<\/a> которым определяется предварительно одобренным Законопроект 7203 по <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">изменению статьи 80 Конституции Украины<\/a> о снятии депутатской неприкосновенности принят в нарушение Регламента ВРУ."
+                },
+                "en-gb": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=1095&skl=10\" target=\"_blank\">Draft Resolution No. 1095<\/a> which is determined by the previously approved Bill 7203 to <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=66337\" target=\"_blank\">amend article 80 of the Constitution of Ukraine<\/a> on the removal of parliamentary immunity adopted in violation of the Rules of the Verkhovna Rada."
+                }
+            }
+        },
         "2019-09-03T12:11:00+0300": {
             "last_post_date": "2019-09-03T12:11:00+0300",
             "languages": {
@@ -189,20 +203,6 @@
                 },
                 "en-gb": {
                     "text": "Before voting for the Chairman of the Verkhovna Rada, the deputies <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=29082019&nom_s=1\" target=\"_blank\">were not provided with information<\/a> regarding the candidate (s) for the post of chairman of the Verkhovna Rada, which violates <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">part 3. Articles 74 of the Rules of the Verkhovna Rada<\/a>"
-                }
-            }
-        },
-        "2019-08-28T13:20:00+0300": {
-            "last_post_date": "2019-08-28T13:20:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Наруга та поплюження<\/a> національного гімну України на офіційному заході з приводу святкування <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Незалежності України<\/a> 24 серпня 2019 року"
-                },
-                "ru": {
-                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">Надругательство и осквернение<\/a> ационального Гимна Украины на официальном мероприятии празднования <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Дня Независимости Украины<\/a> 24 августа 2019 года"
-                },
-                "en-gb": {
-                    "text": "<a href=\"https:\/\/zakon2.rada.gov.ua\/laws\/show\/602-15\" target=\"_blank\">of the national anthem of Ukraine at the official event of the celebration of <a href=\"https:\/\/www.youtube.com\/watch?v=P5KE859_6Jw\" target=\"_blank\">Independence Day of Ukraine<\/a> on August 24, 2019"
                 }
             }
         }
