@@ -1,7 +1,7 @@
 {
     "counters": {
         "cadence_percentage": {
-            "data": 6,
+            "data": 7,
             "is_need_translation": false
         },
         "total_violations_count": {
@@ -42,7 +42,7 @@
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "109",
+            "counter": "110",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1717",
+            "counter": "1716",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
