@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 39,
+            "data": 40,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-07T17:06:00+0300": {
+            "last_post_date": "2019-09-07T17:06:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "Видача громадян України іншій державі в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статті 25 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "Выдача граждан Украины другому государству в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статьи 25 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "Extradition of citizens of Ukraine to another state in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">article 25 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-09-05T12:06:00+0300": {
             "last_post_date": "2019-09-05T12:06:00+0300",
             "languages": {

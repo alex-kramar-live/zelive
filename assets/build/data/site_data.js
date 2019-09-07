@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 39,
+            "data": 40,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 8,
+            "data": 9,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_data = {
         }
     },
     "main_page_archive": {
+        "2019-09-05T12:06:00+0300": {
+            "last_post_date": "2019-09-05T12:06:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=53630\" target=\"_blank\">Накладання вето<\/a> на Закон №1793 щодо покарання за порушення при закупівлі оборонної продукції в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статті 94 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=53630\" target=\"_blank\">Наложение вето<\/a> на Закон №1793 о наказании за нарушения при закупке оборонной продукции в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статьи 94 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=53630\" target=\"_blank\">The veto<\/a> of Law No. 1793 on Punishment for Infringement in the Purchase of Defense Products in Violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Article 94 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-09-05T11:55:00+0300": {
             "last_post_date": "2019-09-05T11:55:00+0300",
             "languages": {
@@ -189,20 +203,6 @@ var site_data = {
                 },
                 "en-gb": {
                     "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">The veto<\/a> of Law 10184 on state support for Plast in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Article 94 of the Constitution of Ukraine<\/a>"
-                }
-            }
-        },
-        "2019-09-05T11:28:00+0300": {
-            "last_post_date": "2019-09-05T11:28:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "Президент Зеленський та його дружина <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">заборонили<\/a> зйомку журналістам коли привели дитину до школи 2 вересня 2019 року, що підпадає під <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">статтю 171 ККУ - \"Перешкоджання законній професійній діяльності журналістів\"<\/a>"
-                },
-                "ru": {
-                    "text": "Президент Зеленский и его жена <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">запретили<\/a> сьемку журналистам когда привели ребенка в школу 2 сентября 2019, подпадающего под <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">статью 171 УК - \"Воспрепятствование законной профессиональной деятельности журналистов\"<\/a>"
-                },
-                "en-gb": {
-                    "text": "President Zelensky and his wife <a href=\"https:\/\/www.youtube.com\/watch?v=EmWFciNoZLQ\" target=\"_blank\">banned<\/a> filming for journalists when they brought the child to school on September 2, 2019, which falls under <a target=\"_blank\" href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/2341-14\">article 171 of the Criminal Code - \"Obstruction of the legitimate professional activities of journalists\"<\/a>"
                 }
             }
         }
