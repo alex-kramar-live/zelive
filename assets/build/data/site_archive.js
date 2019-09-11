@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 41,
+            "data": 42,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 1,
+            "data": 2,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 10,
+            "data": 11,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-11T18:24:00+0300": {
+            "last_post_date": "2019-09-11T18:24:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/6802019-29561\" target=\"_blank\">Скасування указів Президента<\/a> щодо присвоєння дипломатичних рангів"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/6802019-29561\" target=\"_blank\">Отмена указов Президента<\/a> о присвоении дипломатических рангов"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/www.president.gov.ua\/documents\/6802019-29561\" target=\"_blank\">Repeal of Presidential decrees<\/a> for diplomatic rank"
+                }
+            }
+        },
         "2019-09-11T18:01:00+0300": {
             "last_post_date": "2019-09-11T18:01:00+0300",
             "languages": {
