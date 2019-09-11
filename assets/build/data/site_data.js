@@ -5,15 +5,15 @@ var site_data = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 40,
+            "data": 41,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 9,
+            "data": 10,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_data = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "112",
+            "counter": "114",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_data = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1714",
+            "counter": "1712",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_data = {
         }
     },
     "main_page_archive": {
+        "2019-09-07T17:06:00+0300": {
+            "last_post_date": "2019-09-07T17:06:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "Видача громадян України іншій державі в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статті 25 Конституції України<\/a>"
+                },
+                "ru": {
+                    "text": "Выдача граждан Украины другому государству в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статьи 25 Конституции Украины<\/a>"
+                },
+                "en-gb": {
+                    "text": "Extradition of citizens of Ukraine to another state in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">article 25 of the Constitution of Ukraine<\/a>"
+                }
+            }
+        },
         "2019-09-05T12:06:00+0300": {
             "last_post_date": "2019-09-05T12:06:00+0300",
             "languages": {
@@ -189,20 +203,6 @@ var site_data = {
                 },
                 "en-gb": {
                     "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_1?pf3511=61790\" target=\"_blank\">The veto<\/a> of Law No. 6449 on the punishment of pedophiles in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\">Article 94 of the Constitution of Ukraine<\/a>"
-                }
-            }
-        },
-        "2019-09-05T11:36:00+0300": {
-            "last_post_date": "2019-09-05T11:36:00+0300",
-            "languages": {
-                "uk": {
-                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">Накладання вето<\/a> на Закон 10184 про державну підтримку Пласту в порушення <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статті 94 Конституції України<\/a>"
-                },
-                "ru": {
-                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">Наложение вето<\/a> на Закон 10184 о государственной поддержке Пласта в нарушение <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">статьи 94 Конституции Украины<\/a>"
-                },
-                "en-gb": {
-                    "text": "<a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/zweb2\/webproc4_2?id=&pf3516=10184&skl=9\" target=\"_blank\">The veto<\/a> of Law 10184 on state support for Plast in violation of <a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/254%D0%BA\/96-%D0%B2%D1%80\" target=\"_blank\">Article 94 of the Constitution of Ukraine<\/a>"
                 }
             }
         }

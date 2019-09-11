@@ -5,15 +5,15 @@ var site_archive = {
             "is_need_translation": false
         },
         "total_violations_count": {
-            "data": 40,
+            "data": 41,
             "is_need_translation": false
         },
         "this_week_violations_count": {
-            "data": 0,
+            "data": 1,
             "is_need_translation": false
         },
         "months_violations_count": {
-            "data": 9,
+            "data": 10,
             "is_need_translation": false
         },
         "longest_streak_violations_count": {
@@ -42,7 +42,7 @@ var site_archive = {
         },
         "working_progressbar_count": {
             "is_need_translation": true,
-            "counter": "112",
+            "counter": "114",
             "data": "{$working_title} #d {$working_count}",
             "translations": {
                 "working_title": {
@@ -72,7 +72,7 @@ var site_archive = {
         },
         "working_till_end_progressbar_count": {
             "is_need_translation": true,
-            "counter": "1714",
+            "counter": "1712",
             "data": "{$working_till_end_title} #d {$working_till_end_count}",
             "translations": {
                 "working_till_end_title": {
@@ -164,6 +164,20 @@ var site_archive = {
         }
     },
     "main_page_archive": {
+        "2019-09-11T18:01:00+0300": {
+            "last_post_date": "2019-09-11T18:01:00+0300",
+            "languages": {
+                "uk": {
+                    "text": "<a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">Порушення Статті 102 регламенту ВРУ<\/a> при прийнятті закону №1012 про <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=10092019&nom_s=2\" target=\"_blank\">особливу процедуру усунення Президента з поста<\/a>"
+                },
+                "ru": {
+                    "text": "<a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">Нарушение статьи 102 регламента ВРУ<\/a> при принятии закона №1012 об <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=10092019&nom_s=2\" target=\"_blank\">особой процедуре отстранения Президента с поста<\/a>"
+                },
+                "en-gb": {
+                    "text": "<a href=\"https:\/\/zakon.rada.gov.ua\/laws\/show\/1861-17\" target=\"_blank\">Violation of Article 102 of the VRU Rules<\/a> in Adoption of Law No. 1012 on the <a href=\"http:\/\/w1.c1.rada.gov.ua\/pls\/radan_gs09\/ns_el_h2?data=10092019&nom_s=2\" target=\"_blank\">Special Procedure for Removal of the President from office<\/a>"
+                }
+            }
+        },
         "2019-09-07T17:06:00+0300": {
             "last_post_date": "2019-09-07T17:06:00+0300",
             "languages": {
